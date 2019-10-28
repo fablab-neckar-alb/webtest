@@ -1,0 +1,8 @@
+{
+  "baseURL": "https://fablab-neckar-alb.org/",
+  "languageCode": "de-de",
+  "title": "Fablab Neckar-Alb e.V.",
+  "enableGitInfo": true,
+  "enableRobotsTXT": true,
+	"theme": "fablab"
+}
