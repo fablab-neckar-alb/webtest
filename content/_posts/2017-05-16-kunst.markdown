@@ -1,0 +1,21 @@
+---
+author: timod
+date: 2017-05-16 23:13:36+00:00
+draft: false
+title: Kunst!
+type: post
+url: /2017/05/17/kunst/
+categories:
+- Allgemein
+tags:
+- art
+- kiat
+- kunst
+- les six
+- Lucas
+- performance
+- pplc
+- video
+---
+
+[robo-gallery id="2681"]
