@@ -1,0 +1,162 @@
+#!/usr/bin/env sh
+// 2>/dev/null; exec "$(cd $(dirname $0); yarn bin)"/flow-node"" "$0" "$@"
+/**
+ * @flow
+ * @file Converts color file created by Gamut into ASE file.
+ * @author Joris Karl Dzaack <hola@arebours.de>
+ * @see https://web.archive.org/web/20090201101629/http://www.warpspeed.com.au/cgi-bin/inf2html.cmd?..\html\book\Toolkt40\MMREF3.INF+2264
+ * @version 0.0.1
+ */
+
+/**
+ * Module dependencies.
+ */
+
+const path = require('path')
+const { promisify } = require('util')
+const program = require('commander')
+const ByteBuffer = require('bytebuffer')
+const hexRgb = require('hex-rgb')
+
+/**
+ * Promises
+ */
+
+const readFile = promisify(require('fs').readFile)
+const writeFile = promisify(require('fs').writeFile)
+const mkdirp = promisify(require('mkdirp'))
+
+/**
+ * Functions
+ */
+
+const readJSON = async (f) => {
+  try {
+    let rawJSON = await readFile(f)
+
+    return JSON.parse(rawJSON)
+  } catch (err) {
+    return new Error('Cannot read input.')
+  }
+}
+
+const env = function env () {
+  let e = arguments[0]
+
+  if (!e) {
+    error('Environment variable must be specified.')
+  } else if (typeof arguments[1] !== 'undefined') {
+    process.env[e] = arguments[1]
+  }
+
+  return process.env[e] === 'true' ? true : process.env[e] === 'false' ? false : process.env[e]
+}
+
+const log = (m) => {
+  if (env('VERBOSE') || env('DEBUG')) {
+    console.log(m)
+    return m
+  }
+
+  return void 0
+}
+
+const debug = (m) => {
+  if (env('DEBUG')) {
+    console.log(m)
+    return m
+  }
+
+  return void 0
+}
+
+const error = console.error.bind(console)
+
+const map = (c, a) => Array.prototype.map.call(a, c)
+/**
+ * Defaults
+ */
+
+if (!env('DEBUG')) {
+  env('DEBUG', false)
+}
+
+if (!env('VERBOSE')) {
+  env('VERBOSE', false)
+}
+
+/**
+ * Main
+ */
+
+program
+  .version(require('../package.json').version, '-v, --version')
+  .option('--input <file>', 'Specify input file')
+  .option('--output <file>', 'Specify output file')
+  .option('--debug', 'Set debug output', 0)
+  .option('--verbose', 'Set verbose output', 0)
+
+program
+  .on('option:debug', () => {
+    env('DEBUG', program.debug)
+  })
+
+program
+  .on('option:verbose', () => {
+    env('VERBOSE', program.verbose)
+  })
+
+program
+  .parse(process.argv)
+
+if (!program.input || !program.output) {
+  throw new Error('--input and --output are required!')
+}
+
+log(`Converting ${program.input} to ${program.output}`)
+
+const encode = (c) => {
+  const colors = c
+  const numSwatches = colors.length
+  const fileLength = 4 + 4 + 4 + 4 + 2 + 2 + numSwatches * 4
+
+  let buffer = new ByteBuffer()
+
+  // Header
+  buffer.writeString('RIFF')
+  buffer.writeInt(fileLength)
+  buffer.writeString('PAL ')
+
+  // Data chunk
+  buffer.writeString('data')
+  buffer.writeInt(numSwatches * 4 + 4)
+  buffer.writeInt8(0x0300)
+  buffer.writeInt8(numSwatches)
+
+  // Colors
+  for (const cc of colors) {
+    let swatch = new ByteBuffer()
+    swatch.writeInt8(cc.red)
+    swatch.writeInt8(cc.green)
+    swatch.writeInt8(cc.blue)
+    swatch.writeInt8(0)
+    swatch.flip()
+    buffer.append(swatch)
+  }
+
+  buffer.flip()
+  return buffer.toBuffer()
+}
+
+Promise
+  .resolve()
+  .then(() => mkdirp(path.dirname(program.output)))
+  .then(() => readJSON(program.input))
+  .then((data) => data.colors)
+  .then(d => map(hexRgb, d))
+  .then(d => encode(d))
+  .then(d => log(d))
+  .then(d => writeFile(program.output, d))
+  .catch((e) => {
+    throw e
+  })

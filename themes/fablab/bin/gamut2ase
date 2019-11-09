@@ -1,0 +1,147 @@
+#!/usr/bin/env sh
+// 2>/dev/null; exec "$(cd $(dirname $0); yarn bin)"/flow-node"" "$0" "$@"
+/**
+ * @flow
+ * @file Converts color file created by Gamut into ASE file.
+ * @author Joris Karl Dzaack <hola@arebours.de>
+ * @version 0.0.1
+ */
+
+/**
+ * Module dependencies.
+ */
+
+const path = require('path')
+const { promisify } = require('util')
+const program = require('commander')
+const namer = require('color-namer')
+const { encode: aseEncode } = require('ase-utils')
+
+/**
+ * Promises
+ */
+
+const readFile = promisify(require('fs').readFile)
+const writeFile = promisify(require('fs').writeFile)
+const mkdirp = promisify(require('mkdirp'))
+
+/**
+ * Functions
+ */
+
+const readJSON = async (f) => {
+  try {
+    let rawJSON = await readFile(f)
+
+    return JSON.parse(rawJSON)
+  } catch (err) {
+    return new Error('Cannot read input.')
+  }
+}
+
+const env = function env () {
+  let e = arguments[0]
+
+  if (!e) {
+    error('Environment variable must be specified.')
+  } else if (typeof arguments[1] !== 'undefined') {
+    process.env[e] = arguments[1]
+  }
+
+  return process.env[e] === 'true' ? true : process.env[e] === 'false' ? false : process.env[e]
+}
+
+const log = (m) => {
+  if (env('VERBOSE') || env('DEBUG')) {
+    console.log(m)
+    return m
+  }
+
+  return void 0
+}
+
+const debug = (m) => {
+  if (env('DEBUG')) {
+    console.log(m)
+    return m
+  }
+
+  return void 0
+}
+
+const error = console.error.bind(console)
+
+const map = (a, c) => Array.prototype.map.call(a, c)
+
+const hexRgb = (c) => map(Object.values(require('hex-rgb')(c)), (cv) => cv / 255)
+
+/**
+ * Templates
+*/
+
+const aseColorTemplate = {
+  'name': '',
+  'model': 'RGB',
+  'type': 'global',
+  'color': {}
+}
+
+/**
+ * Defaults
+ */
+
+if (!env('DEBUG')) {
+  env('DEBUG', false)
+}
+
+if (!env('VERBOSE')) {
+  env('VERBOSE', false)
+}
+
+/**
+ * Main
+ */
+
+program
+  .version(require('../package.json').version, '-v, --version')
+  .option('--input <file>', 'Specify input file')
+  .option('--output <file>', 'Specify output file')
+  .option('--debug', 'Set debug output', 0)
+  .option('--verbose', 'Set verbose output', 0)
+
+program
+  .on('option:debug', () => {
+    env('DEBUG', program.debug)
+  })
+
+program
+  .on('option:verbose', () => {
+    env('VERBOSE', program.verbose)
+  })
+
+program
+  .parse(process.argv)
+
+if (!program.input || !program.output) {
+  throw new Error('--input and --output are required!')
+}
+
+log(`Converting ${program.input} to ${program.output}`)
+
+Promise
+  .resolve()
+  .then(() => mkdirp(path.dirname(program.output)))
+  .then(() => readJSON(program.input))
+  .then((data) => data.colors)
+  .then((colors) => map(colors, (c, i) => Object.assign({}, aseColorTemplate, {
+    'name': namer(c, { pick: ['ntc'] })['ntc'][0].name,
+    'color': hexRgb(c)
+  })))
+  .then((colors) => ({
+    'colors': colors
+  }))
+  .then((colors) => aseEncode(colors))
+  .then((ase) => writeFile(program.output, ase))
+  .catch((e) => {
+    throw e
+  })

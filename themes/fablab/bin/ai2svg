@@ -1,0 +1,105 @@
+#!/usr/bin/env bash
+#
+# @file
+# Convert Adobe Illustrator files to SVG with Inkscape and SVGO
+# @author Joris Karl Dzaack <hola@arebours.de>
+#
+
+declare -i DEBUG
+declare -i VERBOSE
+
+DEBUG=0
+VERBOSE=0
+
+function usage {
+  echo >&2 "Script has to be called with arguments -i [INPUT FILE] and -o [OUTPUT FILE]!"
+  exit 2
+} 2>/dev/null
+
+function debugmessage {
+  [ "$DEBUG" -eq 1 ] && { echo >&2 "$1" >> /dev/stderr; }
+}
+
+function verbosemessage {
+  [ "$VERBOSE" -eq 1 ] && { echo "$1"; }
+}
+
+function create {
+	local input
+	local output
+	local outputdir
+
+  input=$(readlink -m "$1")
+  output=$(readlink -m "$2")
+  outputdir=$(dirname "$output")
+
+  mkdir -p "$outputdir"
+
+  debugmessage "Input: $input"
+  debugmessage "Output: $output"
+  debugmessage "Output directory: $outputdir"
+
+  verbosemessage "Generating $output"
+
+	inkscape -f "$input" -l "$output" > /dev/null 2>&1 || { echo >&2 "EPS generation failed"; exit 1; }
+  svgo "$output" > /dev/null 2>&1 || { echo >&2 "SVG generation failed"; exit 1; }
+}
+
+function main {
+  local input
+  local output
+
+  if ! command -v inkscape >/dev/null 2>&1;
+  then
+    echo >&2 "Inkscape (inkscape) is necessary for using this script."
+    exit 1
+  fi
+
+  if ! command -v svgo >/dev/null 2>&1;
+  then
+    echo >&2 "SVGO is necessary for using this script."
+    exit 1
+  fi
+
+  if [ $# -eq 0 ];
+  then
+    usage
+  fi
+
+  while getopts ":i:o:dv" opt; do
+    case $opt in
+      i)
+        input="$OPTARG"
+        ;;
+      o)
+        output="$OPTARG"
+        ;;
+      d)
+        DEBUG=1
+        VERBOSE=1
+        ;;
+      v)
+        VERBOSE=1
+        ;;
+      \?)
+        echo "Invalid option: -$OPTARG" >&2
+        usage
+        ;;
+      :)
+        echo "Option -$OPTARG requires an argument." >&2
+        usage
+        ;;
+    esac
+  done
+
+  if [[ -z "$input" ]] || [[ -z "$output" ]]
+  then
+      usage
+  fi
+
+  create "$input" "$output"
+
+  exit 0
+}
+
+main "$@"
