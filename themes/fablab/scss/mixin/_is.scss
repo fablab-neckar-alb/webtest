@@ -1,0 +1,17 @@
+////
+/// Mixins for attribute selectors.
+/// @group Mixins
+/// @author Joris Karl Dzaack <hola@arebours.de>
+////
+
+@mixin is($type, $val:'true') {
+  &[data-is-#{$type}="#{$val}"] {
+    @content;
+  }
+}
+
+@mixin is--parent($type, $val:'true') {
+  &[data-is-#{$type}="#{$val}"] & {
+    @content;
+  }
+}

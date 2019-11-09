@@ -1,0 +1,68 @@
+////
+/// Breakpoint mixins.
+/// @group Mixins
+/// @author Joris Karl Dzaack <hola@arebours.de>
+////
+
+/// Matches desktop styles
+/// @access public
+@mixin big-desktop {
+  @include min-screen(px(b('default', 'width') + 1)) {
+    @content;
+  }
+}
+/// Matches small desktop styles
+/// @access public
+@mixin desktop($restrict:false) {
+  @if $restrict == true {
+    @include screen(px(b('tablet', 'width') + 1), px(b('default', 'width'))) {
+      @content;
+    }
+  } @else {
+    @include min-screen(px(b('tablet', 'width') + 1)) {
+      @content;
+    }
+  }
+}
+
+/// Math devices probably using touch
+/// @access public
+@mixin touch {
+  @include max-screen(px(b('tablet', 'width'))) {
+    @content;
+  }
+}
+
+/// Matches tablet styles
+/// @access public
+@mixin tablet($restrict:false) {
+  @if $restrict == true {
+    @include screen(px(b('phone', 'width') + 1), px(b('tablet', 'width'))) {
+      @content;
+    }
+  } @else {
+    @include min-screen(px(b('phone', 'width') + 1)) {
+      @content;
+    }
+  }
+}
+
+/// Matches mobile styles. (Mobile first.)
+/// @access public
+@mixin mobile($restrict:false) {
+  @if $restrict == true {
+    @include max-screen(px(b('phone', 'width'))) {
+      @content;
+    }
+  } @else {
+    @content;
+  }
+}
+
+/// Matches portrait mobile styles.
+/// @access public
+@mixin mobile-portrait($restrict:false) {
+  @include max-screen(px(b('phone-portrait', 'width'))) {
+    @content;
+  }
+}

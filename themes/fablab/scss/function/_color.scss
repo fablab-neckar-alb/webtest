@@ -1,0 +1,37 @@
+////
+/// Color helpers.
+/// @group Functions
+/// @author Joris Karl Dzaack <hola@arebours.de>
+////
+
+/// Color getter shorthand
+/// @param   {String} $color - Name of color to get
+/// @param   {String} $state - State to look up
+/// @return  {*}            - Color value
+/// @throw   'Unknown color `#{$name}`.'
+@function col ($color, $state:'default') {
+  @return color($color, $state);
+}
+
+/// Returns a color for a state
+/// @param   {String} $color - Name of color to get
+/// @param   {String} $state - State to look up
+/// @return  {*}            - Color value
+/// @throw   'Unknown color `#{$name}`.'
+@function color ($color, $state) {
+  $defined-colors: const('COLORS');
+
+  @if not map-has-key($defined-colors, $color) {
+    @error 'Unknown color `#{$color}`.';
+  }
+
+  $current-color: map-get($defined-colors, $color);
+
+  @if not map-has-key($current_color, $state) {
+    @error 'Unknown state `#{$state}`.';
+  }
+
+  $current-color-state: map-get($current_color, $state);
+
+  @return $current-color-state;
+}

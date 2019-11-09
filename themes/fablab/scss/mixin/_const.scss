@@ -1,0 +1,22 @@
+////
+/// Setter for constants.
+/// @group Mixins
+////
+
+$constants: ();
+
+/// Constant setter
+/// @param   {String} $name  - Name of constant to get
+/// @param   {*}      $value - Constant value
+/// @return  {*}             - Constant value
+/// @require $constants
+/// @throw   'Constant `#{$name}` already defined.'
+/// @output  Nothing
+
+@mixin const($name, $value) {
+  @if map-has-key($constants, $name) {
+    @error 'Constant `#{$name}` already defined.';
+  }
+
+  $constants: map-merge($constants, ($name: $value)) !global;
+}

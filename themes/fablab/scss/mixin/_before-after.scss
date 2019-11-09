@@ -1,0 +1,30 @@
+////
+/// Before and after pseudoelement mixins.
+/// @group Mixins
+/// @author Joris Karl Dzaack <hola@arebours.de>
+////
+
+/// Mathes before and after
+/// @access public
+@mixin before-after {
+  &:before,
+  &:after {
+    @content;
+  }
+}
+
+/// Matches before
+/// @access public
+@mixin before {
+  &:before {
+    @content
+  }
+}
+
+/// Matches after
+/// @access public
+@mixin after {
+  &:after {
+    @content
+  }
+}

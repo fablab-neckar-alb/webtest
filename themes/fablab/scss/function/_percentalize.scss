@@ -1,0 +1,12 @@
+////
+/// Percent helper
+/// @group Functions
+/// @author Joris Karl Dzaack <hola@arebours.de>
+////
+
+/// Adds a percentage sign to a something
+/// @param   {*} $number - Thing to negate
+/// @return  {*}         - Thing with appended percentage sign
+@function percentalize ($number) {
+  @return unquote('#{$number}%');
+}

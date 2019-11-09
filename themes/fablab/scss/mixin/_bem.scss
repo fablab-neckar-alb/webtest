@@ -1,0 +1,72 @@
+////
+/// BEM Mixins.
+/// @group Mixins
+////
+
+@mixin block($block) {
+  @at-root {
+    .#{$block} {
+      @content;
+    }
+  }
+}
+/// Block Element
+/// @access public
+/// @param {String} $element - Element's name
+@mixin element($element) {
+  &__#{$element} {
+    @content;
+  }
+}
+
+/// Block Element with parent's context
+/// @access public
+/// @param {String} $element - Element's name
+@mixin element--parent($element) {
+  @at-root {
+    &__#{$element} & {
+      @content;
+    }
+  }
+}
+
+/// Block Modifier
+/// @access public
+/// @param {String} $modifier - Modifier's name
+@mixin modifier($modifier) {
+  &--#{$modifier} {
+    @content;
+  }
+}
+
+/// Block Modifier with parent's context
+/// @access public
+/// @param {String} $modifier - Modifier's name
+@mixin modifier--parent($modifier) {
+  @at-root {
+    &--#{$modifier} & {
+      @content;
+    }
+  }
+}
+
+/// @alias element
+@mixin e($element) {
+  @include element($element) {
+    @content;
+  }
+}
+
+/// @alias element
+@mixin e--p($element) {
+  @include element--parent($element) {
+    @content;
+  }
+}
+
+/// @alias modifier
+@mixin m($modifier) {
+  @include modifier($modifier) {
+    @content;
+  }
+}

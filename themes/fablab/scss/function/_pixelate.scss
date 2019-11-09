@@ -1,0 +1,17 @@
+////
+/// Pixel helper
+/// @group Functions
+/// @author Joris Karl Dzaack <hola@arebours.de>
+////
+
+/// Adds a percentage sign to a something
+/// @param   {*} $number - Thing to negate
+/// @return  {*}         - Thing with appended 'px'
+@function pixelate ($number) {
+  @return unquote('#{$number}px');
+}
+
+/// @alias pixelate
+@function px ($number) {
+  @return pixelate($number);
+}

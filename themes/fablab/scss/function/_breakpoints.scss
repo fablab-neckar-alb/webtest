@@ -1,0 +1,34 @@
+////
+/// Breakpoint helpers.
+/// @group Functions
+/// @author Joris Karl Dzaack <hola@arebours.de>
+////
+
+/// Breakpoint shorthand
+/// @alias breakpoint
+@function b ($breakpoint, $prop) {
+  @return breakpoint($breakpoint, $prop);
+}
+
+/// Breakpoint getter
+/// @param   {String} $breakpoint - Name of breakpoint to get
+/// @param   {String} $prop - Property to look up
+/// @return  {*}            - Property value
+/// @throw   'Unknown breakpoint `#{$name}`.'
+@function breakpoint ($breakpoint, $prop) {
+  $defined-breakpoints: const('BREAKPOINTS');
+
+  @if not map-has-key($defined-breakpoints, $breakpoint) {
+    @error 'Unknown breakpoint `#{$breakpoint}`.';
+  }
+
+  $current-breakpoint: map-get($defined-breakpoints, $breakpoint);
+
+  @if not map-has-key($current-breakpoint, $prop) {
+    @error 'Unknown prop `#{$prop}`.';
+  }
+
+  $current-breakpoint-prop: map-get($current-breakpoint, $prop);
+
+  @return $current-breakpoint-prop;
+}

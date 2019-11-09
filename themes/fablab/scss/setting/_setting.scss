@@ -1,0 +1,42 @@
+////
+/// Global settings
+/// @author Joris Karl Dzaack <hola@arebours.de>
+////
+
+@include const('FONT-FOLDER', '../fonts');
+@include const('GFX-FOLDER', '../gfx');
+
+@include const('BREAKPOINTS', (
+  'default': (
+    'gutter': 16,
+    'column': 53,
+    'max-width': 978,
+    'width': 1190,
+    'page-indent': 166,
+    'video-height': 60vmin
+  ),
+  'tablet': (
+    'gutter': 14,
+    'column': 37,
+    'width': 1000,
+    'max-width': 708,
+    'page-indent': 110,
+    'video-height': 47%
+  ),
+  'phone': (
+    'gutter': 14,
+    'column': 90,
+    'width': 750,
+    'max-width': 90,
+    'page-indent': 0,
+    'video-height': 60vmin
+  ),
+  'phone-portrait': (
+    'gutter': 14,
+    'column': 90,
+    'width': 400,
+    'max-width': 90,
+    'page-indent': 0,
+    'video-height': 60vmin
+  )
+));

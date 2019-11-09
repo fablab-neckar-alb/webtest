@@ -1,0 +1,12 @@
+////
+/// Negation helper
+/// @group Functions
+/// @author Joris Karl Dzaack <hola@arebours.de>
+////
+
+/// Negates a value
+/// @param   {*} $number - Thing to negate
+/// @return  {*}         - Thing with prepended minus
+@function negate ($number) {
+  @return -#{$number};
+}
