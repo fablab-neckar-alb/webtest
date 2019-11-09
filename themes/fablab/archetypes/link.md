@@ -5,6 +5,8 @@ draft: true
 
 categories: []
 tags: []
-author: ""
+
+# Set your external url
+link: "https://github.com/Lednerb/bilberry-hugo-theme"
 ---
 
