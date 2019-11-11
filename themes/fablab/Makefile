@@ -3,14 +3,15 @@
 # @author Joris Karl Dzaack <hola@arebours.de>
 #
 
-# Configuration
+# CONFIGURATION
 .SECONDARY:
 .DEFAULT_GOAL := dev
 
-# Folders
+# FOLDERS
 BIN := ./bin
 NODE_MODULES := ./node_modules
 NODE_BIN := $(NODE_MODULES)/.bin
+COLOR_DIR := design/color
 
 # FILES
 SASS_ENTRY := scss/fablab.scss
@@ -35,8 +36,24 @@ JS_SOURCE_FILES := $(shell find ./es -type f \( -iname "*.es" ! -wholename "$(JS
 # FILES
 DEPS := static/css/fablab.min.css static/js/module/fablab.js static/js/nomodule/fablab.js
 
-# Rules
-static/css/%.css: scss/%.scss $(SCSS_SOURCE_FILES)
+# RULES
+# color file generation rules
+design/_export/color/%.ase: $(COLOR_DIR)/%.gamut
+	@mkdir -p $(@D)
+	@bin/gamut2ase --input "$<" --output "$@" --verbose
+
+design/_export/color/%.sketchpalette: $(COLOR_DIR)/%.gamut
+	@mkdir -p $(@D)
+	@bin/gamut2sketchpalette --input "$<" --output "$@" --verbose
+
+design/_export/color/%.swatches:  $(COLOR_DIR)/%.gamut
+	@mkdir -p $(@D)
+	@bin/gamut2swatches --input "$<" --output "$@" --verbose
+
+scss/variable/_color.scss: design/color/fablab.gamut
+	bin/gamut2sass --input "$<" --output "$@" --verbose
+
+static/css/%.css: scss/%.scss scss/variable/_color.scss $(SCSS_SOURCE_FILES)
 	@mkdir -p $(@D)
 	@$(SASS) $(SASS_FLAGS) $< > $@
 
@@ -52,6 +69,9 @@ static/js/nomodule/%.js: es/%.es $(JS_SOURCE_FILES)
 # PHONIES
 assets: $(DEPS)
 .PHONY: assets
+
+color: $(patsubst $(COLOR_DIR)/%.gamut,design/_export/color/%.ase,$(wildcard $(COLOR_DIR)/*.gamut)) $(patsubst $(COLOR_DIR)/%.gamut,design/_export/color/%.sketchpalette,$(wildcard $(COLOR_DIR)/*.gamut)) $(patsubst $(COLOR_DIR)/%.gamut,design/_export/color/%.swatches,$(wildcard $(COLOR_DIR)/*.gamut))
+.PHONY: color
 
 dev: real_dev
 	@true
