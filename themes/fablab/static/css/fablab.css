@@ -476,3 +476,10 @@ html::after {
 *::after {
   box-sizing: inherit;
 }
+
+html body {
+  background-color: #00a0c6;
+  background-image: url("../gfx/background.svg");
+  background-size: cover;
+  background-position: 0 0;
+}
