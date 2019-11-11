@@ -4,5 +4,6 @@
   "title": "Fablab Neckar-Alb e.V.",
   "enableGitInfo": true,
   "enableRobotsTXT": true,
-	"theme": "fablab"
+  "theme": "fablab",
+  "disableHugoGeneratorInject": true
 }
