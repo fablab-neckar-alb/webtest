@@ -1,16 +1,12 @@
 {
-  "name": "forum-css",
+  "name": "fablab-theme",
   "version": "0.0.1",
-  "repository": "git@bitbucket.org:lebenskunst/lebenskunst-web.git",
+  "repository": "",
   "contributors": [
     {
       "name": "Joris Karl Dzaack",
       "email": "hola@arebours.de",
       "url": "http://arebours.de/"
-    },
-    {
-      "name": "Torsten Geucke",
-      "email": "t.geucke@gmail.com"
     }
   ],
   "private": true,
@@ -44,14 +40,16 @@
     "sass": "^1.13.2",
     "sass-lint": "^1.12.1",
     "sass-mediaqueries": "^1.6.1",
-    "svgstore-cli": "^1.3.1"
-  },
-  "dependencies": {
+    "svgstore-cli": "^1.3.1",
     "@ampproject/rollup-plugin-closure-compiler": "^0.10.0",
     "adm-zip": "^0.4.13",
     "ase-utils": "^0.1.1",
     "color-namer": "^1.4.0",
     "hex-rgb": "^4.1.0",
+    "http-server": "^0.11.1",
     "onecolor": "^3.1.0"
+  },
+  "dependencies": {
+
   }
 }

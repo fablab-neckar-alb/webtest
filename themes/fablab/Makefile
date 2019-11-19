@@ -22,6 +22,7 @@ FSWATCH := fswatch
 POSTCSS := $(NODE_BIN)/postcss
 ROLLUP := $(NODE_BIN)/rollup
 SASS := $(NODE_BIN)/sass
+HTTP_SERVER := $(NODE_BIN)/http-server
 
 # FLAGS
 FSWATCH_FLAGS := --directories ./ --exclude "_site/.*|js/.*|css/.*|\.jekyll-metadata|node_modules/.*" --recursive --latency 2 --print0
@@ -90,6 +91,10 @@ real_dev: assets
 
 real_prod: assets
 .PHONY: real_prod
+
+serve_skeleton:
+	@$(HTTP_SERVER) ./ --cors -p 1313
+.PHONY: serve_skeleton
 
 watch:
 	@$(FSWATCH) $(FSWATCH_FLAGS) | xargs -0 -n 1 -I % sh -c 'echo "Changed: % file(s)"; $(MAKE) dev'
