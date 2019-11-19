@@ -15,7 +15,7 @@ COLOR_DIR := design/color
 
 # FILES
 SASS_ENTRY := scss/fablab.scss
-JS_ENTRY := es/fablab.es
+JS_ENTRY := es/fablab.js
 
 # BINARIES
 FSWATCH := fswatch
@@ -32,7 +32,7 @@ SASS_FLAGS := -I node_modules/bourbon/core/ -I node_modules/sass-mediaqueries/ -
 
 # SOURCES
 SCSS_SOURCE_FILES := $(shell find ./scss -type f \( -iname "*.scss" ! -wholename "$(SASS_ENTRY)" \))
-JS_SOURCE_FILES := $(shell find ./es -type f \( -iname "*.es" ! -wholename "$(JS_ENTRY)" \))
+JS_SOURCE_FILES := $(shell find ./es -type f \( -iname "*.js" ! -wholename "$(JS_ENTRY)" \))
 
 # FILES
 DEPS := static/css/fablab.min.css static/js/module/fablab.js static/js/nomodule/fablab.js
@@ -61,10 +61,10 @@ static/css/%.css: scss/%.scss scss/variable/_color.scss $(SCSS_SOURCE_FILES)
 static/css/%.min.css: static/css/%.css
 	@$(POSTCSS) $(POSTCSS_FLAGS) $< > $@
 
-static/js/module/%.js: es/%.es $(JS_SOURCE_FILES)
+static/js/module/%.js: es/%.js $(JS_SOURCE_FILES)
 	@$(ROLLUP) $(ROLLUP_FLAGS) --format es --input $< --file $@
 
-static/js/nomodule/%.js: es/%.es $(JS_SOURCE_FILES)
+static/js/nomodule/%.js: es/%.js $(JS_SOURCE_FILES)
 	@$(ROLLUP) $(ROLLUP_FLAGS) --format system --input $< --file $@
 
 # PHONIES
