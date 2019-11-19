@@ -43,7 +43,7 @@
       //<![CDATA[
       if (!window.supportsDynamicImport) {
         var systemJsLoaderTag = document.createElement('script')
-        systemJsLoaderTag.src = 'https://unpkg.com/systemjs@2.0.0/dist/s.min.js'
+        systemJsLoaderTag.src = '/static/lib/s.min.js'
         systemJsLoaderTag.addEventListener('load', function () {
           System.import('/static/js/nomodule/fablab.js');
         })
