@@ -16,8 +16,8 @@ const config = {
       grid: true
     }),
     cachebuster({
-      imagesPath: '/gfx',
-      cssPath: '/css',
+      imagesPath: '/static/gfx',
+      cssPath: '/static/css',
       type: 'checksum'
     }),
     cssnano({
