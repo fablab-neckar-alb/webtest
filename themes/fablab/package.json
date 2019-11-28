@@ -37,6 +37,7 @@
     "rollup-plugin-eslint": "^7.0.0",
     "rollup-plugin-flow": "^1.1.1",
     "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-sucrase": "^2.1.0",
     "sass": "^1.13.2",
     "sass-lint": "^1.12.1",
     "sass-mediaqueries": "^1.6.1",
