@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'IBM 3270';
   font-style: normal;
-  font-weight: 300;
+  font-weight: 500;
   src: url('#{const('FONT-FOLDER')}/3270/3270Medium.eot'); /* IE9 Compat Modes */
   src: local('IBM 3270'), local('3270Medium'),
        url('#{const('FONT-FOLDER')}/3270/3270Medium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
@@ -24,7 +24,7 @@
 /* open-sans-300italic - latin_latin-ext */
 @font-face {
   font-family: 'IBM 3270';
-  font-style: italic;
+  font-style: normal;
   font-weight: 300;
   src: url('#{const('FONT-FOLDER')}/3270/3270Narrow.eot'); /* IE9 Compat Modes */
   src: local('IBM 3270 Narrow'), local('3270Narrow'),
