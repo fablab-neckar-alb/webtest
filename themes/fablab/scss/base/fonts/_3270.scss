@@ -1,0 +1,34 @@
+@font-face {
+  font-family: 'IBM 3270';
+  font-style: normal;
+  font-weight: 300;
+  src: url('#{const('FONT-FOLDER')}/3270/3270Medium.eot'); /* IE9 Compat Modes */
+  src: local('IBM 3270'), local('3270Medium'),
+       url('#{const('FONT-FOLDER')}/3270/3270Medium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('#{const('FONT-FOLDER')}/3270/3270Medium.woff') format('woff'), /* Modern Browsers */
+       url('#{const('FONT-FOLDER')}/3270/3270Medium.ttf') format('truetype'); /* Safari, Android, iOS */
+}
+
+/* open-sans-regular - latin_latin-ext */
+@font-face {
+  font-family: 'IBM 3270';
+  font-style: normal;
+  font-weight: 400;
+  src: url('#{const('FONT-FOLDER')}/3270/3270SemiNarrow.eot'); /* IE9 Compat Modes */
+  src: local('IBM 3270 Semi-Narrow'), local('3270SemiNarrow'),
+       url('#{const('FONT-FOLDER')}/3270/3270SemiNarrow.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('#{const('FONT-FOLDER')}/3270/3270SemiNarrow.woff') format('woff'), /* Modern Browsers */
+       url('#{const('FONT-FOLDER')}/3270/3270SemiNarrow.ttf') format('truetype'); /* Safari, Android, iOS */
+}
+
+/* open-sans-300italic - latin_latin-ext */
+@font-face {
+  font-family: 'IBM 3270';
+  font-style: italic;
+  font-weight: 300;
+  src: url('#{const('FONT-FOLDER')}/3270/3270Narrow.eot'); /* IE9 Compat Modes */
+  src: local('IBM 3270 Narrow'), local('3270Narrow'),
+       url('#{const('FONT-FOLDER')}/3270/3270Narrow.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('#{const('FONT-FOLDER')}/3270/3270Narrow.woff') format('woff'), /* Modern Browsers */
+       url('#{const('FONT-FOLDER')}/3270/3270Narrow.ttf') format('truetype'); /* Safari, Android, iOS */
+}
