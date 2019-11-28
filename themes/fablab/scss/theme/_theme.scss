@@ -1,8 +1,66 @@
-html body {
+html {
+  align-items: center;
   background: {
     color: $pacific-blue;
-    image: url('../gfx/background.svg');
+    image: url('#{const('GFX-FOLDER')}/background.svg');
     size: cover;
     position: 0 0;
   }
+  display: flex;
+  font: {
+    size: $em-base;
+  }
+  justify-content: center;
+  min-height: 100vh;
+}
+
+body {
+  @include mobile {
+    @include margin(rem(7) rem(15) rem(15) rem(7));
+    @include padding(rem(15px));
+    background-color: var(--color--content-background);
+  }
+
+  @include tablet {
+    @include margin(rem(25));
+    @include padding(rem(30px));
+  }
+
+  @include desktop {
+    @include margin(rem(50) rem(40) rem(50) rem(40));
+    @include padding(rem(35px) rem(40px));
+    max-width: rem(1000px);
+  }
+
+  @include big-desktop {
+    @include margin(rem(50) rem(40) rem(50) rem(40));
+    max-width: rem(1200px);
+  }
+
+  @include before {
+    @include position(absolute, rem(15px) rem(-15px) rem(-15px) rem(15px));
+    background: {
+      color: transparent;
+      image: url('#{const('GFX-FOLDER')}/checkerboard.svg');
+      size: rem(4) rem(4);
+    }
+    border: {
+      radius: var(--content--border-radius);
+    }
+    content: '';
+    display: block;
+    z-index: -1;
+  }
+
+  border: {
+    color: var(--content--border-color);
+    radius: var(--content--border-radius);
+    size: var(--content--border-width);
+    style: solid;
+  }
+  flex: 1 1 auto;
+  font: {
+    size: $em-base;
+  }
+  position: relative;
 }

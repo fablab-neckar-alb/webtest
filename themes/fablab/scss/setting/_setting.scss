@@ -5,6 +5,8 @@
 
 @include const('FONT-FOLDER', '../fonts');
 @include const('GFX-FOLDER', '../gfx');
+@include const('CONTENT-BORDER-RADIUS', rem(20));
+@include const('CONTENT-BORDER-WIDTH', rem(3px));
 
 @include const('BREAKPOINTS', (
   'default': (

@@ -6,3 +6,16 @@
 ////
 
 @import './color';
+
+:root {
+  --color--black: #{$black};
+  --color--white: #{$white};
+  --color--fablab-blue: #{$pacific-blue};
+  --color--darker: #{$calypso};
+  --color--dark: #{$bunker};
+  --color--content-background: #{$onahau};
+
+  --content--border-radius: #{const('CONTENT-BORDER-RADIUS')};
+  --content--border-width: #{const('CONTENT-BORDER-WIDTH')};
+  --content--border-color: var(--color--darker);
+}
