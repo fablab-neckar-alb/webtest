@@ -1,0 +1,27 @@
+@include block('teaser') {
+  @include mobile {
+    @include margin(null null rem(15) null);
+  }
+  @include tablet {
+    @include margin(null null rem(50) null);
+  }
+
+  @include element('headline') {
+    @extend %text-styles__headline--h1;
+  }
+  @include element('content') {
+    @extend %text-styles__body--t1;
+    @include margin(null null null rem(50));
+
+    @include touch {
+      @include margin(null null null rem(0));
+    }
+    @include big-desktop {
+      @include margin(null null null rem(0));
+      column: {
+        gap: rem(25);
+        count: 2;
+      }
+    }
+  }
+}
