@@ -1,0 +1,12 @@
+@include block('header') {
+  @include element('main-menu') {
+    flex-grow: 2;
+  }
+
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: {
+    bottom: rem(50);
+  }
+}

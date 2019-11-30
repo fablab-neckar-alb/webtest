@@ -1,0 +1,13 @@
+@include block('cards') {
+  @include element('card') {
+    @include margin(null null rem(25) null);
+    @include tablet {
+      &:nth-child(2n-1) {
+        @include margin(null rem(50) null null);
+      }
+      flex: 0 1 calc(50% - #{rem(50px)});
+    }
+  }
+  display: flex;
+  flex-wrap: wrap;
+}

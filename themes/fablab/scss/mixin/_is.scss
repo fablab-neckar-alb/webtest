@@ -5,13 +5,13 @@
 ////
 
 @mixin is($type, $val:'true') {
-  &[data-is-#{$type}="#{$val}"] {
+  &[data-is-#{$type}='#{$val}'] {
     @content;
   }
 }
 
 @mixin is--parent($type, $val:'true') {
-  &[data-is-#{$type}="#{$val}"] & {
+  &[data-is-#{$type}='#{$val}'] & {
     @content;
   }
 }

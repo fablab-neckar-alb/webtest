@@ -1,4 +1,6 @@
 %icon {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
   font: {
     family: 'Jam';
     size: inherit;
@@ -6,4489 +8,4487 @@
     variant: normal;
     weight: normal;
   }
-  line-height:1;
+  line-height: 1;
   speak: none;
   text-transform: none;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
-%icon-five-hundred-px{
+%icon-five-hundred-px {
   @extend %icon;
   content: '\e900';
 }
 
-%icon-activity{
+%icon-activity {
   @extend %icon;
   content: '\e901';
 }
 
-%icon-airbnb{
+%icon-airbnb {
   @extend %icon;
   content: '\e902';
 }
 
-%icon-alarm-clock-f{
+%icon-alarm-clock-f {
   @extend %icon;
   content: '\e903';
 }
 
-%icon-alarm-clock{
+%icon-alarm-clock {
   @extend %icon;
   content: '\e904';
 }
 
-%icon-alert-f{
+%icon-alert-f {
   @extend %icon;
   content: '\e905';
 }
 
-%icon-alert{
+%icon-alert {
   @extend %icon;
   content: '\e906';
 }
 
-%icon-alien-f{
+%icon-alien-f {
   @extend %icon;
   content: '\e907';
 }
 
-%icon-alien{
+%icon-alien {
   @extend %icon;
   content: '\e908';
 }
 
-%icon-align-center{
+%icon-align-center {
   @extend %icon;
   content: '\e909';
 }
 
-%icon-align-justify{
+%icon-align-justify {
   @extend %icon;
   content: '\e90a';
 }
 
-%icon-align-left{
+%icon-align-left {
   @extend %icon;
   content: '\e90b';
 }
 
-%icon-align-right{
+%icon-align-right {
   @extend %icon;
   content: '\e90c';
 }
 
-%icon-amazon{
+%icon-amazon {
   @extend %icon;
   content: '\e90d';
 }
 
-%icon-anchor{
+%icon-anchor {
   @extend %icon;
   content: '\e90e';
 }
 
-%icon-android-circle{
+%icon-android-circle {
   @extend %icon;
   content: '\e90f';
 }
 
-%icon-android-square{
+%icon-android-square {
   @extend %icon;
   content: '\e910';
 }
 
-%icon-android{
+%icon-android {
   @extend %icon;
   content: '\e911';
 }
 
-%icon-aperture{
+%icon-aperture {
   @extend %icon;
   content: '\e912';
 }
 
-%icon-apple-circle{
+%icon-apple-circle {
   @extend %icon;
   content: '\e913';
 }
 
-%icon-apple-square{
+%icon-apple-square {
   @extend %icon;
   content: '\e914';
 }
 
-%icon-apple{
+%icon-apple {
   @extend %icon;
   content: '\e915';
 }
 
-%icon-archive-f{
+%icon-archive-f {
   @extend %icon;
   content: '\e916';
 }
 
-%icon-archive{
+%icon-archive {
   @extend %icon;
   content: '\e917';
 }
 
-%icon-arrow-circle-down-f{
+%icon-arrow-circle-down-f {
   @extend %icon;
   content: '\e918';
 }
 
-%icon-arrow-circle-down-left-f{
+%icon-arrow-circle-down-left-f {
   @extend %icon;
   content: '\e919';
 }
 
-%icon-arrow-circle-down-left{
+%icon-arrow-circle-down-left {
   @extend %icon;
   content: '\e91a';
 }
 
-%icon-arrow-circle-down-right-f{
+%icon-arrow-circle-down-right-f {
   @extend %icon;
   content: '\e91b';
 }
 
-%icon-arrow-circle-down-right{
+%icon-arrow-circle-down-right {
   @extend %icon;
   content: '\e91c';
 }
 
-%icon-arrow-circle-down{
+%icon-arrow-circle-down {
   @extend %icon;
   content: '\e91d';
 }
 
-%icon-arrow-circle-left-f{
+%icon-arrow-circle-left-f {
   @extend %icon;
   content: '\e91e';
 }
 
-%icon-arrow-circle-left{
+%icon-arrow-circle-left {
   @extend %icon;
   content: '\e91f';
 }
 
-%icon-arrow-circle-right-f{
+%icon-arrow-circle-right-f {
   @extend %icon;
   content: '\e920';
 }
 
-%icon-arrow-circle-right{
+%icon-arrow-circle-right {
   @extend %icon;
   content: '\e921';
 }
 
-%icon-arrow-circle-up-f{
+%icon-arrow-circle-up-f {
   @extend %icon;
   content: '\e922';
 }
 
-%icon-arrow-circle-up-left-f{
+%icon-arrow-circle-up-left-f {
   @extend %icon;
   content: '\e923';
 }
 
-%icon-arrow-circle-up-left{
+%icon-arrow-circle-up-left {
   @extend %icon;
   content: '\e924';
 }
 
-%icon-arrow-circle-up-right-f{
+%icon-arrow-circle-up-right-f {
   @extend %icon;
   content: '\e925';
 }
 
-%icon-arrow-circle-up-right{
+%icon-arrow-circle-up-right {
   @extend %icon;
   content: '\e926';
 }
 
-%icon-arrow-circle-up{
+%icon-arrow-circle-up {
   @extend %icon;
   content: '\e927';
 }
 
-%icon-arrow-down-left{
+%icon-arrow-down-left {
   @extend %icon;
   content: '\e928';
 }
 
-%icon-arrow-down-right{
+%icon-arrow-down-right {
   @extend %icon;
   content: '\e929';
 }
 
-%icon-arrow-down{
+%icon-arrow-down {
   @extend %icon;
   content: '\e92a';
 }
 
-%icon-arrow-left{
+%icon-arrow-left {
   @extend %icon;
   content: '\e92b';
 }
 
-%icon-arrow-right{
+%icon-arrow-right {
   @extend %icon;
   content: '\e92c';
 }
 
-%icon-arrow-square-down-f{
+%icon-arrow-square-down-f {
   @extend %icon;
   content: '\e92d';
 }
 
-%icon-arrow-square-down-left-f{
+%icon-arrow-square-down-left-f {
   @extend %icon;
   content: '\e92e';
 }
 
-%icon-arrow-square-down-left{
+%icon-arrow-square-down-left {
   @extend %icon;
   content: '\e92f';
 }
 
-%icon-arrow-square-down-right-f{
+%icon-arrow-square-down-right-f {
   @extend %icon;
   content: '\e930';
 }
 
-%icon-arrow-square-down-right{
+%icon-arrow-square-down-right {
   @extend %icon;
   content: '\e931';
 }
 
-%icon-arrow-square-down{
+%icon-arrow-square-down {
   @extend %icon;
   content: '\e932';
 }
 
-%icon-arrow-square-left-f{
+%icon-arrow-square-left-f {
   @extend %icon;
   content: '\e933';
 }
 
-%icon-arrow-square-left{
+%icon-arrow-square-left {
   @extend %icon;
   content: '\e934';
 }
 
-%icon-arrow-square-right-f{
+%icon-arrow-square-right-f {
   @extend %icon;
   content: '\e935';
 }
 
-%icon-arrow-square-right{
+%icon-arrow-square-right {
   @extend %icon;
   content: '\e936';
 }
 
-%icon-arrow-square-up-f{
+%icon-arrow-square-up-f {
   @extend %icon;
   content: '\e937';
 }
 
-%icon-arrow-square-up-left-f{
+%icon-arrow-square-up-left-f {
   @extend %icon;
   content: '\e938';
 }
 
-%icon-arrow-square-up-left{
+%icon-arrow-square-up-left {
   @extend %icon;
   content: '\e939';
 }
 
-%icon-arrow-square-up-right-f{
+%icon-arrow-square-up-right-f {
   @extend %icon;
   content: '\e93a';
 }
 
-%icon-arrow-square-up-right{
+%icon-arrow-square-up-right {
   @extend %icon;
   content: '\e93b';
 }
 
-%icon-arrow-square-up{
+%icon-arrow-square-up {
   @extend %icon;
   content: '\e93c';
 }
 
-%icon-arrow-up-left{
+%icon-arrow-up-left {
   @extend %icon;
   content: '\e93d';
 }
 
-%icon-arrow-up-right{
+%icon-arrow-up-right {
   @extend %icon;
   content: '\e93e';
 }
 
-%icon-arrow-up{
+%icon-arrow-up {
   @extend %icon;
   content: '\e93f';
 }
 
-%icon-arrows-corners{
+%icon-arrows-corners {
   @extend %icon;
   content: '\e940';
 }
 
-%icon-arrows-fullscreen{
+%icon-arrows-fullscreen {
   @extend %icon;
   content: '\e941';
 }
 
-%icon-arrows-h{
+%icon-arrows-h {
   @extend %icon;
   content: '\e942';
 }
 
-%icon-arrows-v{
+%icon-arrows-v {
   @extend %icon;
   content: '\e943';
 }
 
-%icon-attachment{
+%icon-attachment {
   @extend %icon;
   content: '\e944';
 }
 
-%icon-background-color{
+%icon-background-color {
   @extend %icon;
   content: '\e945';
 }
 
-%icon-backpack-f{
+%icon-backpack-f {
   @extend %icon;
   content: '\e946';
 }
 
-%icon-backpack{
+%icon-backpack {
   @extend %icon;
   content: '\e947';
 }
 
-%icon-backward-circle-f{
+%icon-backward-circle-f {
   @extend %icon;
   content: '\e948';
 }
 
-%icon-backward-circle{
+%icon-backward-circle {
   @extend %icon;
   content: '\e949';
 }
 
-%icon-backward-square-f{
+%icon-backward-square-f {
   @extend %icon;
   content: '\e94a';
 }
 
-%icon-backward-square{
+%icon-backward-square {
   @extend %icon;
   content: '\e94b';
 }
 
-%icon-backward{
+%icon-backward {
   @extend %icon;
   content: '\e94c';
 }
 
-%icon-baidu-circle{
+%icon-baidu-circle {
   @extend %icon;
   content: '\e94d';
 }
 
-%icon-baidu-square{
+%icon-baidu-square {
   @extend %icon;
   content: '\e94e';
 }
 
-%icon-baidu{
+%icon-baidu {
   @extend %icon;
   content: '\e94f';
 }
 
-%icon-bandage-f{
+%icon-bandage-f {
   @extend %icon;
   content: '\e950';
 }
 
-%icon-bandage{
+%icon-bandage {
   @extend %icon;
   content: '\e951';
 }
 
-%icon-bar-chart{
+%icon-bar-chart {
   @extend %icon;
   content: '\e952';
 }
 
-%icon-baseball{
+%icon-baseball {
   @extend %icon;
   content: '\e953';
 }
 
-%icon-basketball{
+%icon-basketball {
   @extend %icon;
   content: '\e954';
 }
 
-%icon-bathtub-f{
+%icon-bathtub-f {
   @extend %icon;
   content: '\e955';
 }
 
-%icon-bathtub{
+%icon-bathtub {
   @extend %icon;
   content: '\e956';
 }
 
-%icon-battery-charging-f{
+%icon-battery-charging-f {
   @extend %icon;
   content: '\e957';
 }
 
-%icon-battery-charging{
+%icon-battery-charging {
   @extend %icon;
   content: '\e958';
 }
 
-%icon-battery-f{
+%icon-battery-f {
   @extend %icon;
   content: '\e959';
 }
 
-%icon-battery-half-f{
+%icon-battery-half-f {
   @extend %icon;
   content: '\e95a';
 }
 
-%icon-battery-half{
+%icon-battery-half {
   @extend %icon;
   content: '\e95b';
 }
 
-%icon-battery-one-quarter-f{
+%icon-battery-one-quarter-f {
   @extend %icon;
   content: '\e95c';
 }
 
-%icon-battery-one-quarter{
+%icon-battery-one-quarter {
   @extend %icon;
   content: '\e95d';
 }
 
-%icon-battery-three-quarters-f{
+%icon-battery-three-quarters-f {
   @extend %icon;
   content: '\e95e';
 }
 
-%icon-battery-three-quarters{
+%icon-battery-three-quarters {
   @extend %icon;
   content: '\e95f';
 }
 
-%icon-battery{
+%icon-battery {
   @extend %icon;
   content: '\e960';
 }
 
-%icon-beatport-circle{
+%icon-beatport-circle {
   @extend %icon;
   content: '\e961';
 }
 
-%icon-beatport-square{
+%icon-beatport-square {
   @extend %icon;
   content: '\e962';
 }
 
-%icon-beatport{
+%icon-beatport {
   @extend %icon;
   content: '\e963';
 }
 
-%icon-beer-f{
+%icon-beer-f {
   @extend %icon;
   content: '\e964';
 }
 
-%icon-beer{
+%icon-beer {
   @extend %icon;
   content: '\e965';
 }
 
-%icon-behance-circle{
+%icon-behance-circle {
   @extend %icon;
   content: '\e966';
 }
 
-%icon-behance-square{
+%icon-behance-square {
   @extend %icon;
   content: '\e967';
 }
 
-%icon-behance{
+%icon-behance {
   @extend %icon;
   content: '\e968';
 }
 
-%icon-bell-f{
+%icon-bell-f {
   @extend %icon;
   content: '\e969';
 }
 
-%icon-bell-off-f{
+%icon-bell-off-f {
   @extend %icon;
   content: '\e96a';
 }
 
-%icon-bell-off{
+%icon-bell-off {
   @extend %icon;
   content: '\e96b';
 }
 
-%icon-bell{
+%icon-bell {
   @extend %icon;
   content: '\e96c';
 }
 
-%icon-bing-circle{
+%icon-bing-circle {
   @extend %icon;
   content: '\e96d';
 }
 
-%icon-bing-square{
+%icon-bing-square {
   @extend %icon;
   content: '\e96e';
 }
 
-%icon-bing{
+%icon-bing {
   @extend %icon;
   content: '\e96f';
 }
 
-%icon-birthday-cake-f{
+%icon-birthday-cake-f {
   @extend %icon;
   content: '\e970';
 }
 
-%icon-birthday-cake{
+%icon-birthday-cake {
   @extend %icon;
   content: '\e971';
 }
 
-%icon-blogger-circle{
+%icon-blogger-circle {
   @extend %icon;
   content: '\e972';
 }
 
-%icon-blogger-square{
+%icon-blogger-square {
   @extend %icon;
   content: '\e973';
 }
 
-%icon-blogger{
+%icon-blogger {
   @extend %icon;
   content: '\e974';
 }
 
-%icon-bluetooth{
+%icon-bluetooth {
   @extend %icon;
   content: '\e975';
 }
 
-%icon-bold{
+%icon-bold {
   @extend %icon;
   content: '\e976';
 }
 
-%icon-book-f{
+%icon-book-f {
   @extend %icon;
   content: '\e977';
 }
 
-%icon-book{
+%icon-book {
   @extend %icon;
   content: '\e978';
 }
 
-%icon-bookmark-f{
+%icon-bookmark-f {
   @extend %icon;
   content: '\e979';
 }
 
-%icon-bookmark-minus-f{
+%icon-bookmark-minus-f {
   @extend %icon;
   content: '\e97a';
 }
 
-%icon-bookmark-minus{
+%icon-bookmark-minus {
   @extend %icon;
   content: '\e97b';
 }
 
-%icon-bookmark-plus-f{
+%icon-bookmark-plus-f {
   @extend %icon;
   content: '\e97c';
 }
 
-%icon-bookmark-plus{
+%icon-bookmark-plus {
   @extend %icon;
   content: '\e97d';
 }
 
-%icon-bookmark-remove-f{
+%icon-bookmark-remove-f {
   @extend %icon;
   content: '\e97e';
 }
 
-%icon-bookmark-remove{
+%icon-bookmark-remove {
   @extend %icon;
   content: '\e97f';
 }
 
-%icon-bookmark{
+%icon-bookmark {
   @extend %icon;
   content: '\e980';
 }
 
-%icon-bottle-f{
+%icon-bottle-f {
   @extend %icon;
   content: '\e981';
 }
 
-%icon-bottle{
+%icon-bottle {
   @extend %icon;
   content: '\e982';
 }
 
-%icon-box-f{
+%icon-box-f {
   @extend %icon;
   content: '\e983';
 }
 
-%icon-box{
+%icon-box {
   @extend %icon;
   content: '\e984';
 }
 
-%icon-branch-f{
+%icon-branch-f {
   @extend %icon;
   content: '\e985';
 }
 
-%icon-branch{
+%icon-branch {
   @extend %icon;
   content: '\e986';
 }
 
-%icon-brightness-down-f{
+%icon-brightness-down-f {
   @extend %icon;
   content: '\e987';
 }
 
-%icon-brightness-down{
+%icon-brightness-down {
   @extend %icon;
   content: '\e988';
 }
 
-%icon-brightness-up-f{
+%icon-brightness-up-f {
   @extend %icon;
   content: '\e989';
 }
 
-%icon-brightness-up{
+%icon-brightness-up {
   @extend %icon;
   content: '\e98a';
 }
 
-%icon-brightness{
+%icon-brightness {
   @extend %icon;
   content: '\e98b';
 }
 
-%icon-brush-f{
+%icon-brush-f {
   @extend %icon;
   content: '\e98c';
 }
 
-%icon-brush{
+%icon-brush {
   @extend %icon;
   content: '\e98d';
 }
 
-%icon-bug-f{
+%icon-bug-f {
   @extend %icon;
   content: '\e98e';
 }
 
-%icon-bug{
+%icon-bug {
   @extend %icon;
   content: '\e98f';
 }
 
-%icon-building-f{
+%icon-building-f {
   @extend %icon;
   content: '\e990';
 }
 
-%icon-building{
+%icon-building {
   @extend %icon;
   content: '\e991';
 }
 
-%icon-bus-f{
+%icon-bus-f {
   @extend %icon;
   content: '\e992';
 }
 
-%icon-bus{
+%icon-bus {
   @extend %icon;
   content: '\e993';
 }
 
-%icon-cactus-f{
+%icon-cactus-f {
   @extend %icon;
   content: '\e994';
 }
 
-%icon-cactus{
+%icon-cactus {
   @extend %icon;
   content: '\e995';
 }
 
-%icon-calculator{
+%icon-calculator {
   @extend %icon;
   content: '\e996';
 }
 
-%icon-calendar-alt-f{
+%icon-calendar-alt-f {
   @extend %icon;
   content: '\e997';
 }
 
-%icon-calendar-alt{
+%icon-calendar-alt {
   @extend %icon;
   content: '\e998';
 }
 
-%icon-calendar-f{
+%icon-calendar-f {
   @extend %icon;
   content: '\e999';
 }
 
-%icon-calendar{
+%icon-calendar {
   @extend %icon;
   content: '\e99a';
 }
 
-%icon-camera-alt-f{
+%icon-camera-alt-f {
   @extend %icon;
   content: '\e99b';
 }
 
-%icon-camera-alt{
+%icon-camera-alt {
   @extend %icon;
   content: '\e99c';
 }
 
-%icon-camera-f{
+%icon-camera-f {
   @extend %icon;
   content: '\e99d';
 }
 
-%icon-camera{
+%icon-camera {
   @extend %icon;
   content: '\e99e';
 }
 
-%icon-candle-f{
+%icon-candle-f {
   @extend %icon;
   content: '\e99f';
 }
 
-%icon-candle{
+%icon-candle {
   @extend %icon;
   content: '\e9a0';
 }
 
-%icon-capsule-f{
+%icon-capsule-f {
   @extend %icon;
   content: '\e9a1';
 }
 
-%icon-capsule{
+%icon-capsule {
   @extend %icon;
   content: '\e9a2';
 }
 
-%icon-car-f{
+%icon-car-f {
   @extend %icon;
   content: '\e9a3';
 }
 
-%icon-car{
+%icon-car {
   @extend %icon;
   content: '\e9a4';
 }
 
-%icon-castle-f{
+%icon-castle-f {
   @extend %icon;
   content: '\e9a5';
 }
 
-%icon-castle{
+%icon-castle {
   @extend %icon;
   content: '\e9a6';
 }
 
-%icon-check{
+%icon-check {
   @extend %icon;
   content: '\e9a7';
 }
 
-%icon-chevron-circle-down-f{
+%icon-chevron-circle-down-f {
   @extend %icon;
   content: '\e9a8';
 }
 
-%icon-chevron-circle-down-left-f{
+%icon-chevron-circle-down-left-f {
   @extend %icon;
   content: '\e9a9';
 }
 
-%icon-chevron-circle-down-left{
+%icon-chevron-circle-down-left {
   @extend %icon;
   content: '\e9aa';
 }
 
-%icon-chevron-circle-down-right-f{
+%icon-chevron-circle-down-right-f {
   @extend %icon;
   content: '\e9ab';
 }
 
-%icon-chevron-circle-down-right{
+%icon-chevron-circle-down-right {
   @extend %icon;
   content: '\e9ac';
 }
 
-%icon-chevron-circle-down{
+%icon-chevron-circle-down {
   @extend %icon;
   content: '\e9ad';
 }
 
-%icon-chevron-circle-left-f{
+%icon-chevron-circle-left-f {
   @extend %icon;
   content: '\e9ae';
 }
 
-%icon-chevron-circle-left{
+%icon-chevron-circle-left {
   @extend %icon;
   content: '\e9af';
 }
 
-%icon-chevron-circle-right-f{
+%icon-chevron-circle-right-f {
   @extend %icon;
   content: '\e9b0';
 }
 
-%icon-chevron-circle-right{
+%icon-chevron-circle-right {
   @extend %icon;
   content: '\e9b1';
 }
 
-%icon-chevron-circle-up-f{
+%icon-chevron-circle-up-f {
   @extend %icon;
   content: '\e9b2';
 }
 
-%icon-chevron-circle-up-left-f{
+%icon-chevron-circle-up-left-f {
   @extend %icon;
   content: '\e9b3';
 }
 
-%icon-chevron-circle-up-left{
+%icon-chevron-circle-up-left {
   @extend %icon;
   content: '\e9b4';
 }
 
-%icon-chevron-circle-up-right-f{
+%icon-chevron-circle-up-right-f {
   @extend %icon;
   content: '\e9b5';
 }
 
-%icon-chevron-circle-up-right{
+%icon-chevron-circle-up-right {
   @extend %icon;
   content: '\e9b6';
 }
 
-%icon-chevron-circle-up{
+%icon-chevron-circle-up {
   @extend %icon;
   content: '\e9b7';
 }
 
-%icon-chevron-down-left{
+%icon-chevron-down-left {
   @extend %icon;
   content: '\e9b8';
 }
 
-%icon-chevron-down-right{
+%icon-chevron-down-right {
   @extend %icon;
   content: '\e9b9';
 }
 
-%icon-chevron-down{
+%icon-chevron-down {
   @extend %icon;
   content: '\e9ba';
 }
 
-%icon-chevron-left{
+%icon-chevron-left {
   @extend %icon;
   content: '\e9bb';
 }
 
-%icon-chevron-right{
+%icon-chevron-right {
   @extend %icon;
   content: '\e9bc';
 }
 
-%icon-chevron-square-down-f{
+%icon-chevron-square-down-f {
   @extend %icon;
   content: '\e9bd';
 }
 
-%icon-chevron-square-down-left-f{
+%icon-chevron-square-down-left-f {
   @extend %icon;
   content: '\e9be';
 }
 
-%icon-chevron-square-down-left{
+%icon-chevron-square-down-left {
   @extend %icon;
   content: '\e9bf';
 }
 
-%icon-chevron-square-down-right-f{
+%icon-chevron-square-down-right-f {
   @extend %icon;
   content: '\e9c0';
 }
 
-%icon-chevron-square-down-right{
+%icon-chevron-square-down-right {
   @extend %icon;
   content: '\e9c1';
 }
 
-%icon-chevron-square-down{
+%icon-chevron-square-down {
   @extend %icon;
   content: '\e9c2';
 }
 
-%icon-chevron-square-left-f{
+%icon-chevron-square-left-f {
   @extend %icon;
   content: '\e9c3';
 }
 
-%icon-chevron-square-left{
+%icon-chevron-square-left {
   @extend %icon;
   content: '\e9c4';
 }
 
-%icon-chevron-square-right-f{
+%icon-chevron-square-right-f {
   @extend %icon;
   content: '\e9c5';
 }
 
-%icon-chevron-square-right{
+%icon-chevron-square-right {
   @extend %icon;
   content: '\e9c6';
 }
 
-%icon-chevron-square-up-f{
+%icon-chevron-square-up-f {
   @extend %icon;
   content: '\e9c7';
 }
 
-%icon-chevron-square-up-left-f{
+%icon-chevron-square-up-left-f {
   @extend %icon;
   content: '\e9c8';
 }
 
-%icon-chevron-square-up-left{
+%icon-chevron-square-up-left {
   @extend %icon;
   content: '\e9c9';
 }
 
-%icon-chevron-square-up-right-f{
+%icon-chevron-square-up-right-f {
   @extend %icon;
   content: '\e9ca';
 }
 
-%icon-chevron-square-up-right{
+%icon-chevron-square-up-right {
   @extend %icon;
   content: '\e9cb';
 }
 
-%icon-chevron-square-up{
+%icon-chevron-square-up {
   @extend %icon;
   content: '\e9cc';
 }
 
-%icon-chevron-up-left{
+%icon-chevron-up-left {
   @extend %icon;
   content: '\e9cd';
 }
 
-%icon-chevron-up-right{
+%icon-chevron-up-right {
   @extend %icon;
   content: '\e9ce';
 }
 
-%icon-chevron-up{
+%icon-chevron-up {
   @extend %icon;
   content: '\e9cf';
 }
 
-%icon-chevrons-circle-down-f{
+%icon-chevrons-circle-down-f {
   @extend %icon;
   content: '\e9d0';
 }
 
-%icon-chevrons-circle-down-left-f{
+%icon-chevrons-circle-down-left-f {
   @extend %icon;
   content: '\e9d1';
 }
 
-%icon-chevrons-circle-down-left{
+%icon-chevrons-circle-down-left {
   @extend %icon;
   content: '\e9d2';
 }
 
-%icon-chevrons-circle-down-right-f{
+%icon-chevrons-circle-down-right-f {
   @extend %icon;
   content: '\e9d3';
 }
 
-%icon-chevrons-circle-down-right{
+%icon-chevrons-circle-down-right {
   @extend %icon;
   content: '\e9d4';
 }
 
-%icon-chevrons-circle-down{
+%icon-chevrons-circle-down {
   @extend %icon;
   content: '\e9d5';
 }
 
-%icon-chevrons-circle-left-f{
+%icon-chevrons-circle-left-f {
   @extend %icon;
   content: '\e9d6';
 }
 
-%icon-chevrons-circle-left{
+%icon-chevrons-circle-left {
   @extend %icon;
   content: '\e9d7';
 }
 
-%icon-chevrons-circle-right-f{
+%icon-chevrons-circle-right-f {
   @extend %icon;
   content: '\e9d8';
 }
 
-%icon-chevrons-circle-right{
+%icon-chevrons-circle-right {
   @extend %icon;
   content: '\e9d9';
 }
 
-%icon-chevrons-circle-up-f{
+%icon-chevrons-circle-up-f {
   @extend %icon;
   content: '\e9da';
 }
 
-%icon-chevrons-circle-up-left-f{
+%icon-chevrons-circle-up-left-f {
   @extend %icon;
   content: '\e9db';
 }
 
-%icon-chevrons-circle-up-left{
+%icon-chevrons-circle-up-left {
   @extend %icon;
   content: '\e9dc';
 }
 
-%icon-chevrons-circle-up-right-f{
+%icon-chevrons-circle-up-right-f {
   @extend %icon;
   content: '\e9dd';
 }
 
-%icon-chevrons-circle-up-right{
+%icon-chevrons-circle-up-right {
   @extend %icon;
   content: '\e9de';
 }
 
-%icon-chevrons-circle-up{
+%icon-chevrons-circle-up {
   @extend %icon;
   content: '\e9df';
 }
 
-%icon-chevrons-down-left{
+%icon-chevrons-down-left {
   @extend %icon;
   content: '\e9e0';
 }
 
-%icon-chevrons-down-right{
+%icon-chevrons-down-right {
   @extend %icon;
   content: '\e9e1';
 }
 
-%icon-chevrons-down{
+%icon-chevrons-down {
   @extend %icon;
   content: '\e9e2';
 }
 
-%icon-chevrons-left{
+%icon-chevrons-left {
   @extend %icon;
   content: '\e9e3';
 }
 
-%icon-chevrons-right{
+%icon-chevrons-right {
   @extend %icon;
   content: '\e9e4';
 }
 
-%icon-chevrons-square-down-f{
+%icon-chevrons-square-down-f {
   @extend %icon;
   content: '\e9e5';
 }
 
-%icon-chevrons-square-down-left-f{
+%icon-chevrons-square-down-left-f {
   @extend %icon;
   content: '\e9e6';
 }
 
-%icon-chevrons-square-down-left{
+%icon-chevrons-square-down-left {
   @extend %icon;
   content: '\e9e7';
 }
 
-%icon-chevrons-square-down-right-f{
+%icon-chevrons-square-down-right-f {
   @extend %icon;
   content: '\e9e8';
 }
 
-%icon-chevrons-square-down-right{
+%icon-chevrons-square-down-right {
   @extend %icon;
   content: '\e9e9';
 }
 
-%icon-chevrons-square-down{
+%icon-chevrons-square-down {
   @extend %icon;
   content: '\e9ea';
 }
 
-%icon-chevrons-square-left-f{
+%icon-chevrons-square-left-f {
   @extend %icon;
   content: '\e9eb';
 }
 
-%icon-chevrons-square-left{
+%icon-chevrons-square-left {
   @extend %icon;
   content: '\e9ec';
 }
 
-%icon-chevrons-square-right-f{
+%icon-chevrons-square-right-f {
   @extend %icon;
   content: '\e9ed';
 }
 
-%icon-chevrons-square-right{
+%icon-chevrons-square-right {
   @extend %icon;
   content: '\e9ee';
 }
 
-%icon-chevrons-square-up-f{
+%icon-chevrons-square-up-f {
   @extend %icon;
   content: '\e9ef';
 }
 
-%icon-chevrons-square-up-left-f{
+%icon-chevrons-square-up-left-f {
   @extend %icon;
   content: '\e9f0';
 }
 
-%icon-chevrons-square-up-left{
+%icon-chevrons-square-up-left {
   @extend %icon;
   content: '\e9f1';
 }
 
-%icon-chevrons-square-up-right-f{
+%icon-chevrons-square-up-right-f {
   @extend %icon;
   content: '\e9f2';
 }
 
-%icon-chevrons-square-up-right{
+%icon-chevrons-square-up-right {
   @extend %icon;
   content: '\e9f3';
 }
 
-%icon-chevrons-square-up{
+%icon-chevrons-square-up {
   @extend %icon;
   content: '\e9f4';
 }
 
-%icon-chevrons-up-left{
+%icon-chevrons-up-left {
   @extend %icon;
   content: '\e9f5';
 }
 
-%icon-chevrons-up-right{
+%icon-chevrons-up-right {
   @extend %icon;
   content: '\e9f6';
 }
 
-%icon-chevrons-up{
+%icon-chevrons-up {
   @extend %icon;
   content: '\e9f7';
 }
 
-%icon-chronometer-f{
+%icon-chronometer-f {
   @extend %icon;
   content: '\e9f8';
 }
 
-%icon-chronometer{
+%icon-chronometer {
   @extend %icon;
   content: '\e9f9';
 }
 
-%icon-circle-f{
+%icon-circle-f {
   @extend %icon;
   content: '\e9fa';
 }
 
-%icon-circle{
+%icon-circle {
   @extend %icon;
   content: '\e9fb';
 }
 
-%icon-clear-format{
+%icon-clear-format {
   @extend %icon;
   content: '\e9fc';
 }
 
-%icon-clipboard-f{
+%icon-clipboard-f {
   @extend %icon;
   content: '\e9fd';
 }
 
-%icon-clipboard{
+%icon-clipboard {
   @extend %icon;
   content: '\e9fe';
 }
 
-%icon-clock-f{
+%icon-clock-f {
   @extend %icon;
   content: '\e9ff';
 }
 
-%icon-clock{
+%icon-clock {
   @extend %icon;
   content: '\ea00';
 }
 
-%icon-close-circle-f{
+%icon-close-circle-f {
   @extend %icon;
   content: '\ea01';
 }
 
-%icon-close-circle{
+%icon-close-circle {
   @extend %icon;
   content: '\ea02';
 }
 
-%icon-close-rectangle-f{
+%icon-close-rectangle-f {
   @extend %icon;
   content: '\ea03';
 }
 
-%icon-close-rectangle{
+%icon-close-rectangle {
   @extend %icon;
   content: '\ea04';
 }
 
-%icon-close{
+%icon-close {
   @extend %icon;
   content: '\ea05';
 }
 
-%icon-cloud-f{
+%icon-cloud-f {
   @extend %icon;
   content: '\ea06';
 }
 
-%icon-cloud-rain-f{
+%icon-cloud-rain-f {
   @extend %icon;
   content: '\ea07';
 }
 
-%icon-cloud-rain{
+%icon-cloud-rain {
   @extend %icon;
   content: '\ea08';
 }
 
-%icon-cloud-snow-f{
+%icon-cloud-snow-f {
   @extend %icon;
   content: '\ea09';
 }
 
-%icon-cloud-snow{
+%icon-cloud-snow {
   @extend %icon;
   content: '\ea0a';
 }
 
-%icon-cloud-thunder-f{
+%icon-cloud-thunder-f {
   @extend %icon;
   content: '\ea0b';
 }
 
-%icon-cloud-thunder{
+%icon-cloud-thunder {
   @extend %icon;
   content: '\ea0c';
 }
 
-%icon-cloud{
+%icon-cloud {
   @extend %icon;
   content: '\ea0d';
 }
 
-%icon-codepen-circle{
+%icon-codepen-circle {
   @extend %icon;
   content: '\ea0e';
 }
 
-%icon-codepen-square{
+%icon-codepen-square {
   @extend %icon;
   content: '\ea0f';
 }
 
-%icon-codepen{
+%icon-codepen {
   @extend %icon;
   content: '\ea10';
 }
 
-%icon-coffee-cup-f{
+%icon-coffee-cup-f {
   @extend %icon;
   content: '\ea11';
 }
 
-%icon-coffee-cup{
+%icon-coffee-cup {
   @extend %icon;
   content: '\ea12';
 }
 
-%icon-coffee{
+%icon-coffee {
   @extend %icon;
   content: '\ea13';
 }
 
-%icon-cog-f{
+%icon-cog-f {
   @extend %icon;
   content: '\ea14';
 }
 
-%icon-cog{
+%icon-cog {
   @extend %icon;
   content: '\ea15';
 }
 
-%icon-cogs-f{
+%icon-cogs-f {
   @extend %icon;
   content: '\ea16';
 }
 
-%icon-cogs{
+%icon-cogs {
   @extend %icon;
   content: '\ea17';
 }
 
-%icon-coin-f{
+%icon-coin-f {
   @extend %icon;
   content: '\ea18';
 }
 
-%icon-coin{
+%icon-coin {
   @extend %icon;
   content: '\ea19';
 }
 
-%icon-color{
+%icon-color {
   @extend %icon;
   content: '\ea1a';
 }
 
-%icon-compass-f{
+%icon-compass-f {
   @extend %icon;
   content: '\ea1b';
 }
 
-%icon-compass{
+%icon-compass {
   @extend %icon;
   content: '\ea1c';
 }
 
-%icon-computer-alt-f{
+%icon-computer-alt-f {
   @extend %icon;
   content: '\ea1d';
 }
 
-%icon-computer-alt{
+%icon-computer-alt {
   @extend %icon;
   content: '\ea1e';
 }
 
-%icon-computer-f{
+%icon-computer-f {
   @extend %icon;
   content: '\ea1f';
 }
 
-%icon-computer{
+%icon-computer {
   @extend %icon;
   content: '\ea20';
 }
 
-%icon-credit-card-f{
+%icon-credit-card-f {
   @extend %icon;
   content: '\ea21';
 }
 
-%icon-credit-card{
+%icon-credit-card {
   @extend %icon;
   content: '\ea22';
 }
 
-%icon-crop{
+%icon-crop {
   @extend %icon;
   content: '\ea23';
 }
 
-%icon-crown-f{
+%icon-crown-f {
   @extend %icon;
   content: '\ea24';
 }
 
-%icon-crown{
+%icon-crown {
   @extend %icon;
   content: '\ea25';
 }
 
-%icon-cutlery-f{
+%icon-cutlery-f {
   @extend %icon;
   content: '\ea26';
 }
 
-%icon-cutlery{
+%icon-cutlery {
   @extend %icon;
   content: '\ea27';
 }
 
-%icon-cutter-f{
+%icon-cutter-f {
   @extend %icon;
   content: '\ea28';
 }
 
-%icon-cutter{
+%icon-cutter {
   @extend %icon;
   content: '\ea29';
 }
 
-%icon-dashboard-f{
+%icon-dashboard-f {
   @extend %icon;
   content: '\ea2a';
 }
 
-%icon-dashboard{
+%icon-dashboard {
   @extend %icon;
   content: '\ea2b';
 }
 
-%icon-database-f{
+%icon-database-f {
   @extend %icon;
   content: '\ea2c';
 }
 
-%icon-database{
+%icon-database {
   @extend %icon;
   content: '\ea2d';
 }
 
-%icon-deezer-circle{
+%icon-deezer-circle {
   @extend %icon;
   content: '\ea2e';
 }
 
-%icon-deezer-square{
+%icon-deezer-square {
   @extend %icon;
   content: '\ea2f';
 }
 
-%icon-deezer{
+%icon-deezer {
   @extend %icon;
   content: '\ea30';
 }
 
-%icon-delete-f{
+%icon-delete-f {
   @extend %icon;
   content: '\ea31';
 }
 
-%icon-delete{
+%icon-delete {
   @extend %icon;
   content: '\ea32';
 }
 
-%icon-deviantart-circle{
+%icon-deviantart-circle {
   @extend %icon;
   content: '\ea33';
 }
 
-%icon-deviantart-square{
+%icon-deviantart-square {
   @extend %icon;
   content: '\ea34';
 }
 
-%icon-deviantart{
+%icon-deviantart {
   @extend %icon;
   content: '\ea35';
 }
 
-%icon-digg{
+%icon-digg {
   @extend %icon;
   content: '\ea36';
 }
 
-%icon-direction-f{
+%icon-direction-f {
   @extend %icon;
   content: '\ea37';
 }
 
-%icon-direction{
+%icon-direction {
   @extend %icon;
   content: '\ea38';
 }
 
-%icon-directions-f{
+%icon-directions-f {
   @extend %icon;
   content: '\ea39';
 }
 
-%icon-directions{
+%icon-directions {
   @extend %icon;
   content: '\ea3a';
 }
 
-%icon-disc-f{
+%icon-disc-f {
   @extend %icon;
   content: '\ea3b';
 }
 
-%icon-disc{
+%icon-disc {
   @extend %icon;
   content: '\ea3c';
 }
 
-%icon-disqus-circle{
+%icon-disqus-circle {
   @extend %icon;
   content: '\ea3d';
 }
 
-%icon-disqus-square{
+%icon-disqus-square {
   @extend %icon;
   content: '\ea3e';
 }
 
-%icon-disqus{
+%icon-disqus {
   @extend %icon;
   content: '\ea3f';
 }
 
-%icon-dj-f{
+%icon-dj-f {
   @extend %icon;
   content: '\ea40';
 }
 
-%icon-dj{
+%icon-dj {
   @extend %icon;
   content: '\ea41';
 }
 
-%icon-dna{
+%icon-dna {
   @extend %icon;
   content: '\ea42';
 }
 
-%icon-document-f{
+%icon-document-f {
   @extend %icon;
   content: '\ea43';
 }
 
-%icon-document{
+%icon-document {
   @extend %icon;
   content: '\ea44';
 }
 
-%icon-door{
+%icon-door {
   @extend %icon;
   content: '\ea45';
 }
 
-%icon-download{
+%icon-download {
   @extend %icon;
   content: '\ea46';
 }
 
-%icon-drupal-circle{
+%icon-drupal-circle {
   @extend %icon;
   content: '\ea47';
 }
 
-%icon-drupal-square{
+%icon-drupal-square {
   @extend %icon;
   content: '\ea48';
 }
 
-%icon-drupal{
+%icon-drupal {
   @extend %icon;
   content: '\ea49';
 }
 
-%icon-ebay{
+%icon-ebay {
   @extend %icon;
   content: '\ea4a';
 }
 
-%icon-egg-f{
+%icon-egg-f {
   @extend %icon;
   content: '\ea4b';
 }
 
-%icon-egg{
+%icon-egg {
   @extend %icon;
   content: '\ea4c';
 }
 
-%icon-eggs-f{
+%icon-eggs-f {
   @extend %icon;
   content: '\ea4d';
 }
 
-%icon-eggs{
+%icon-eggs {
   @extend %icon;
   content: '\ea4e';
 }
 
-%icon-eject-circle-f{
+%icon-eject-circle-f {
   @extend %icon;
   content: '\ea4f';
 }
 
-%icon-eject-circle{
+%icon-eject-circle {
   @extend %icon;
   content: '\ea50';
 }
 
-%icon-eject-square-f{
+%icon-eject-square-f {
   @extend %icon;
   content: '\ea51';
 }
 
-%icon-eject-square{
+%icon-eject-square {
   @extend %icon;
   content: '\ea52';
 }
 
-%icon-eject{
+%icon-eject {
   @extend %icon;
   content: '\ea53';
 }
 
-%icon-envelope-f{
+%icon-envelope-f {
   @extend %icon;
   content: '\ea54';
 }
 
-%icon-envelope-open-f{
+%icon-envelope-open-f {
   @extend %icon;
   content: '\ea55';
 }
 
-%icon-envelope-open{
+%icon-envelope-open {
   @extend %icon;
   content: '\ea56';
 }
 
-%icon-envelope{
+%icon-envelope {
   @extend %icon;
   content: '\ea57';
 }
 
-%icon-extinguisher-f{
+%icon-extinguisher-f {
   @extend %icon;
   content: '\ea58';
 }
 
-%icon-extinguisher{
+%icon-extinguisher {
   @extend %icon;
   content: '\ea59';
 }
 
-%icon-eye-close-f{
+%icon-eye-close-f {
   @extend %icon;
   content: '\ea5a';
 }
 
-%icon-eye-close{
+%icon-eye-close {
   @extend %icon;
   content: '\ea5b';
 }
 
-%icon-eye-f{
+%icon-eye-f {
   @extend %icon;
   content: '\ea5c';
 }
 
-%icon-eye{
+%icon-eye {
   @extend %icon;
   content: '\ea5d';
 }
 
-%icon-eyedropper-f{
+%icon-eyedropper-f {
   @extend %icon;
   content: '\ea5e';
 }
 
-%icon-eyedropper{
+%icon-eyedropper {
   @extend %icon;
   content: '\ea5f';
 }
 
-%icon-facebook-circle{
+%icon-facebook-circle {
   @extend %icon;
   content: '\ea60';
 }
 
-%icon-facebook-square{
+%icon-facebook-square {
   @extend %icon;
   content: '\ea61';
 }
 
-%icon-facebook{
+%icon-facebook {
   @extend %icon;
   content: '\ea62';
 }
 
-%icon-fast-backward-circle-f{
+%icon-fast-backward-circle-f {
   @extend %icon;
   content: '\ea63';
 }
 
-%icon-fast-backward-circle{
+%icon-fast-backward-circle {
   @extend %icon;
   content: '\ea64';
 }
 
-%icon-fast-backward-square-f{
+%icon-fast-backward-square-f {
   @extend %icon;
   content: '\ea65';
 }
 
-%icon-fast-backward-square{
+%icon-fast-backward-square {
   @extend %icon;
   content: '\ea66';
 }
 
-%icon-fast-backward{
+%icon-fast-backward {
   @extend %icon;
   content: '\ea67';
 }
 
-%icon-fast-forward-circle-f{
+%icon-fast-forward-circle-f {
   @extend %icon;
   content: '\ea68';
 }
 
-%icon-fast-forward-circle{
+%icon-fast-forward-circle {
   @extend %icon;
   content: '\ea69';
 }
 
-%icon-fast-forward-square-f{
+%icon-fast-forward-square-f {
   @extend %icon;
   content: '\ea6a';
 }
 
-%icon-fast-forward-square{
+%icon-fast-forward-square {
   @extend %icon;
   content: '\ea6b';
 }
 
-%icon-fast-forward{
+%icon-fast-forward {
   @extend %icon;
   content: '\ea6c';
 }
 
-%icon-feather-f{
+%icon-feather-f {
   @extend %icon;
   content: '\ea6d';
 }
 
-%icon-feather{
+%icon-feather {
   @extend %icon;
   content: '\ea6e';
 }
 
-%icon-female{
+%icon-female {
   @extend %icon;
   content: '\ea6f';
 }
 
-%icon-file-f{
+%icon-file-f {
   @extend %icon;
   content: '\ea70';
 }
 
-%icon-file{
+%icon-file {
   @extend %icon;
   content: '\ea71';
 }
 
-%icon-files-f{
+%icon-files-f {
   @extend %icon;
   content: '\ea72';
 }
 
-%icon-files{
+%icon-files {
   @extend %icon;
   content: '\ea73';
 }
 
-%icon-filter-f{
+%icon-filter-f {
   @extend %icon;
   content: '\ea74';
 }
 
-%icon-filter{
+%icon-filter {
   @extend %icon;
   content: '\ea75';
 }
 
-%icon-fingerprint{
+%icon-fingerprint {
   @extend %icon;
   content: '\ea76';
 }
 
-%icon-first-aid-f{
+%icon-first-aid-f {
   @extend %icon;
   content: '\ea77';
 }
 
-%icon-first-aid{
+%icon-first-aid {
   @extend %icon;
   content: '\ea78';
 }
 
-%icon-fish{
+%icon-fish {
   @extend %icon;
   content: '\ea79';
 }
 
-%icon-fiverr-circle{
+%icon-fiverr-circle {
   @extend %icon;
   content: '\ea7a';
 }
 
-%icon-fiverr-square{
+%icon-fiverr-square {
   @extend %icon;
   content: '\ea7b';
 }
 
-%icon-fiverr{
+%icon-fiverr {
   @extend %icon;
   content: '\ea7c';
 }
 
-%icon-flag-f{
+%icon-flag-f {
   @extend %icon;
   content: '\ea7d';
 }
 
-%icon-flag{
+%icon-flag {
   @extend %icon;
   content: '\ea7e';
 }
 
-%icon-flame-f{
+%icon-flame-f {
   @extend %icon;
   content: '\ea7f';
 }
 
-%icon-flame{
+%icon-flame {
   @extend %icon;
   content: '\ea80';
 }
 
-%icon-flashlight-off-f{
+%icon-flashlight-off-f {
   @extend %icon;
   content: '\ea81';
 }
 
-%icon-flashlight-off{
+%icon-flashlight-off {
   @extend %icon;
   content: '\ea82';
 }
 
-%icon-flashlight-on-f{
+%icon-flashlight-on-f {
   @extend %icon;
   content: '\ea83';
 }
 
-%icon-flashlight-on{
+%icon-flashlight-on {
   @extend %icon;
   content: '\ea84';
 }
 
-%icon-flask{
+%icon-flask {
   @extend %icon;
   content: '\ea85';
 }
 
-%icon-flickr-circle{
+%icon-flickr-circle {
   @extend %icon;
   content: '\ea86';
 }
 
-%icon-flickr-square{
+%icon-flickr-square {
   @extend %icon;
   content: '\ea87';
 }
 
-%icon-flickr{
+%icon-flickr {
   @extend %icon;
   content: '\ea88';
 }
 
-%icon-flower{
+%icon-flower {
   @extend %icon;
   content: '\ea89';
 }
 
-%icon-folder-f{
+%icon-folder-f {
   @extend %icon;
   content: '\ea8a';
 }
 
-%icon-folder-open-f{
+%icon-folder-open-f {
   @extend %icon;
   content: '\ea8b';
 }
 
-%icon-folder-open{
+%icon-folder-open {
   @extend %icon;
   content: '\ea8c';
 }
 
-%icon-folder-zip-f{
+%icon-folder-zip-f {
   @extend %icon;
   content: '\ea8d';
 }
 
-%icon-folder-zip{
+%icon-folder-zip {
   @extend %icon;
   content: '\ea8e';
 }
 
-%icon-folder{
+%icon-folder {
   @extend %icon;
   content: '\ea8f';
 }
 
-%icon-football{
+%icon-football {
   @extend %icon;
   content: '\ea90';
 }
 
-%icon-fork-f{
+%icon-fork-f {
   @extend %icon;
   content: '\ea91';
 }
 
-%icon-fork{
+%icon-fork {
   @extend %icon;
   content: '\ea92';
 }
 
-%icon-forward-circle-f{
+%icon-forward-circle-f {
   @extend %icon;
   content: '\ea93';
 }
 
-%icon-forward-circle{
+%icon-forward-circle {
   @extend %icon;
   content: '\ea94';
 }
 
-%icon-forward-square-f{
+%icon-forward-square-f {
   @extend %icon;
   content: '\ea95';
 }
 
-%icon-forward-square{
+%icon-forward-square {
   @extend %icon;
   content: '\ea96';
 }
 
-%icon-forward{
+%icon-forward {
   @extend %icon;
   content: '\ea97';
 }
 
-%icon-foursquare{
+%icon-foursquare {
   @extend %icon;
   content: '\ea98';
 }
 
-%icon-gamepad-f{
+%icon-gamepad-f {
   @extend %icon;
   content: '\ea99';
 }
 
-%icon-gamepad-retro-f{
+%icon-gamepad-retro-f {
   @extend %icon;
   content: '\ea9a';
 }
 
-%icon-gamepad-retro{
+%icon-gamepad-retro {
   @extend %icon;
   content: '\ea9b';
 }
 
-%icon-gamepad{
+%icon-gamepad {
   @extend %icon;
   content: '\ea9c';
 }
 
-%icon-ghost-f{
+%icon-ghost-f {
   @extend %icon;
   content: '\ea9d';
 }
 
-%icon-ghost-org-circle{
+%icon-ghost-org-circle {
   @extend %icon;
   content: '\ea9e';
 }
 
-%icon-ghost-org-square{
+%icon-ghost-org-square {
   @extend %icon;
   content: '\ea9f';
 }
 
-%icon-ghost-org{
+%icon-ghost-org {
   @extend %icon;
   content: '\eaa0';
 }
 
-%icon-ghost{
+%icon-ghost {
   @extend %icon;
   content: '\eaa1';
 }
 
-%icon-gift-f{
+%icon-gift-f {
   @extend %icon;
   content: '\eaa2';
 }
 
-%icon-gift{
+%icon-gift {
   @extend %icon;
   content: '\eaa3';
 }
 
-%icon-github-circle{
+%icon-github-circle {
   @extend %icon;
   content: '\eaa4';
 }
 
-%icon-github-square{
+%icon-github-square {
   @extend %icon;
   content: '\eaa5';
 }
 
-%icon-github{
+%icon-github {
   @extend %icon;
   content: '\eaa6';
 }
 
-%icon-gitlab-circle{
+%icon-gitlab-circle {
   @extend %icon;
   content: '\eaa7';
 }
 
-%icon-gitlab-square{
+%icon-gitlab-square {
   @extend %icon;
   content: '\eaa8';
 }
 
-%icon-gitlab{
+%icon-gitlab {
   @extend %icon;
   content: '\eaa9';
 }
 
-%icon-glass-empty{
+%icon-glass-empty {
   @extend %icon;
   content: '\eaaa';
 }
 
-%icon-glass-filled-f{
+%icon-glass-filled-f {
   @extend %icon;
   content: '\eaab';
 }
 
-%icon-glass-filled{
+%icon-glass-filled {
   @extend %icon;
   content: '\eaac';
 }
 
-%icon-glue-f{
+%icon-glue-f {
   @extend %icon;
   content: '\eaad';
 }
 
-%icon-glue{
+%icon-glue {
   @extend %icon;
   content: '\eaae';
 }
 
-%icon-google-circle{
+%icon-google-circle {
   @extend %icon;
   content: '\eaaf';
 }
 
-%icon-google-play-circle{
+%icon-google-play-circle {
   @extend %icon;
   content: '\eab0';
 }
 
-%icon-google-play-square{
+%icon-google-play-square {
   @extend %icon;
   content: '\eab1';
 }
 
-%icon-google-play{
+%icon-google-play {
   @extend %icon;
   content: '\eab2';
 }
 
-%icon-google-plus-circle{
+%icon-google-plus-circle {
   @extend %icon;
   content: '\eab3';
 }
 
-%icon-google-plus-square{
+%icon-google-plus-square {
   @extend %icon;
   content: '\eab4';
 }
 
-%icon-google-plus{
+%icon-google-plus {
   @extend %icon;
   content: '\eab5';
 }
 
-%icon-google-square{
+%icon-google-square {
   @extend %icon;
   content: '\eab6';
 }
 
-%icon-google{
+%icon-google {
   @extend %icon;
   content: '\eab7';
 }
 
-%icon-gps-f{
+%icon-gps-f {
   @extend %icon;
   content: '\eab8';
 }
 
-%icon-gps{
+%icon-gps {
   @extend %icon;
   content: '\eab9';
 }
 
-%icon-grid-f{
+%icon-grid-f {
   @extend %icon;
   content: '\eaba';
 }
 
-%icon-grid{
+%icon-grid {
   @extend %icon;
   content: '\eabb';
 }
 
-%icon-hairdryer-f{
+%icon-hairdryer-f {
   @extend %icon;
   content: '\eabc';
 }
 
-%icon-hairdryer{
+%icon-hairdryer {
   @extend %icon;
   content: '\eabd';
 }
 
-%icon-hammer-f{
+%icon-hammer-f {
   @extend %icon;
   content: '\eabe';
 }
 
-%icon-hammer{
+%icon-hammer {
   @extend %icon;
   content: '\eabf';
 }
 
-%icon-hashtag{
+%icon-hashtag {
   @extend %icon;
   content: '\eac0';
 }
 
-%icon-header-1{
+%icon-header-1 {
   @extend %icon;
   content: '\eac1';
 }
 
-%icon-header-2{
+%icon-header-2 {
   @extend %icon;
   content: '\eac2';
 }
 
-%icon-header-3{
+%icon-header-3 {
   @extend %icon;
   content: '\eac3';
 }
 
-%icon-header-4{
+%icon-header-4 {
   @extend %icon;
   content: '\eac4';
 }
 
-%icon-header-5{
+%icon-header-5 {
   @extend %icon;
   content: '\eac5';
 }
 
-%icon-header-6{
+%icon-header-6 {
   @extend %icon;
   content: '\eac6';
 }
 
-%icon-header{
+%icon-header {
   @extend %icon;
   content: '\eac7';
 }
 
-%icon-headset-f{
+%icon-headset-f {
   @extend %icon;
   content: '\eac8';
 }
 
-%icon-headset{
+%icon-headset {
   @extend %icon;
   content: '\eac9';
 }
 
-%icon-heart-f{
+%icon-heart-f {
   @extend %icon;
   content: '\eaca';
 }
 
-%icon-heart{
+%icon-heart {
   @extend %icon;
   content: '\eacb';
 }
 
-%icon-helmet-f{
+%icon-helmet-f {
   @extend %icon;
   content: '\eacc';
 }
 
-%icon-helmet{
+%icon-helmet {
   @extend %icon;
   content: '\eacd';
 }
 
-%icon-help-f{
+%icon-help-f {
   @extend %icon;
   content: '\eace';
 }
 
-%icon-help{
+%icon-help {
   @extend %icon;
   content: '\eacf';
 }
 
-%icon-highlighter-f{
+%icon-highlighter-f {
   @extend %icon;
   content: '\ead0';
 }
 
-%icon-highlighter{
+%icon-highlighter {
   @extend %icon;
   content: '\ead1';
 }
 
-%icon-history{
+%icon-history {
   @extend %icon;
   content: '\ead2';
 }
 
-%icon-home-f{
+%icon-home-f {
   @extend %icon;
   content: '\ead3';
 }
 
-%icon-home{
+%icon-home {
   @extend %icon;
   content: '\ead4';
 }
 
-%icon-hourglass-f{
+%icon-hourglass-f {
   @extend %icon;
   content: '\ead5';
 }
 
-%icon-hourglass{
+%icon-hourglass {
   @extend %icon;
   content: '\ead6';
 }
 
-%icon-ice-cream-f{
+%icon-ice-cream-f {
   @extend %icon;
   content: '\ead7';
 }
 
-%icon-ice-cream{
+%icon-ice-cream {
   @extend %icon;
   content: '\ead8';
 }
 
-%icon-id-card-f{
+%icon-id-card-f {
   @extend %icon;
   content: '\ead9';
 }
 
-%icon-id-card{
+%icon-id-card {
   @extend %icon;
   content: '\eada';
 }
 
-%icon-inbox-f{
+%icon-inbox-f {
   @extend %icon;
   content: '\eadb';
 }
 
-%icon-inbox{
+%icon-inbox {
   @extend %icon;
   content: '\eadc';
 }
 
-%icon-inboxes-f{
+%icon-inboxes-f {
   @extend %icon;
   content: '\eadd';
 }
 
-%icon-inboxes{
+%icon-inboxes {
   @extend %icon;
   content: '\eade';
 }
 
-%icon-indent{
+%icon-indent {
   @extend %icon;
   content: '\eadf';
 }
 
-%icon-infinite{
+%icon-infinite {
   @extend %icon;
   content: '\eae0';
 }
 
-%icon-info-f{
+%icon-info-f {
   @extend %icon;
   content: '\eae1';
 }
 
-%icon-info{
+%icon-info {
   @extend %icon;
   content: '\eae2';
 }
 
-%icon-instagram{
+%icon-instagram {
   @extend %icon;
   content: '\eae3';
 }
 
-%icon-instant-picture-f{
+%icon-instant-picture-f {
   @extend %icon;
   content: '\eae4';
 }
 
-%icon-instant-picture{
+%icon-instant-picture {
   @extend %icon;
   content: '\eae5';
 }
 
-%icon-italic{
+%icon-italic {
   @extend %icon;
   content: '\eae6';
 }
 
-%icon-joystick-f{
+%icon-joystick-f {
   @extend %icon;
   content: '\eae7';
 }
 
-%icon-joystick{
+%icon-joystick {
   @extend %icon;
   content: '\eae8';
 }
 
-%icon-key-f{
+%icon-key-f {
   @extend %icon;
   content: '\eae9';
 }
 
-%icon-key{
+%icon-key {
   @extend %icon;
   content: '\eaea';
 }
 
-%icon-keyboard-f{
+%icon-keyboard-f {
   @extend %icon;
   content: '\eaeb';
 }
 
-%icon-keyboard{
+%icon-keyboard {
   @extend %icon;
   content: '\eaec';
 }
 
-%icon-language{
+%icon-language {
   @extend %icon;
   content: '\eaed';
 }
 
-%icon-layers-f{
+%icon-layers-f {
   @extend %icon;
   content: '\eaee';
 }
 
-%icon-layers{
+%icon-layers {
   @extend %icon;
   content: '\eaef';
 }
 
-%icon-layout-f{
+%icon-layout-f {
   @extend %icon;
   content: '\eaf0';
 }
 
-%icon-layout{
+%icon-layout {
   @extend %icon;
   content: '\eaf1';
 }
 
-%icon-leaf-f{
+%icon-leaf-f {
   @extend %icon;
   content: '\eaf2';
 }
 
-%icon-leaf{
+%icon-leaf {
   @extend %icon;
   content: '\eaf3';
 }
 
-%icon-lifebuoy-f{
+%icon-lifebuoy-f {
   @extend %icon;
   content: '\eaf4';
 }
 
-%icon-lifebuoy{
+%icon-lifebuoy {
   @extend %icon;
   content: '\eaf5';
 }
 
-%icon-lightbulb-f{
+%icon-lightbulb-f {
   @extend %icon;
   content: '\eaf6';
 }
 
-%icon-lightbulb{
+%icon-lightbulb {
   @extend %icon;
   content: '\eaf7';
 }
 
-%icon-line{
+%icon-line {
   @extend %icon;
   content: '\eaf8';
 }
 
-%icon-link{
+%icon-link {
   @extend %icon;
   content: '\eaf9';
 }
 
-%icon-linkedin-circle{
+%icon-linkedin-circle {
   @extend %icon;
   content: '\eafa';
 }
 
-%icon-linkedin-square{
+%icon-linkedin-square {
   @extend %icon;
   content: '\eafb';
 }
 
-%icon-linkedin{
+%icon-linkedin {
   @extend %icon;
   content: '\eafc';
 }
 
-%icon-log-in{
+%icon-log-in {
   @extend %icon;
   content: '\eafd';
 }
 
-%icon-log-out{
+%icon-log-out {
   @extend %icon;
   content: '\eafe';
 }
 
-%icon-luggage-f{
+%icon-luggage-f {
   @extend %icon;
   content: '\eaff';
 }
 
-%icon-luggage{
+%icon-luggage {
   @extend %icon;
   content: '\eb00';
 }
 
-%icon-magic-f{
+%icon-magic-f {
   @extend %icon;
   content: '\eb01';
 }
 
-%icon-magic{
+%icon-magic {
   @extend %icon;
   content: '\eb02';
 }
 
-%icon-magnet-f{
+%icon-magnet-f {
   @extend %icon;
   content: '\eb03';
 }
 
-%icon-magnet{
+%icon-magnet {
   @extend %icon;
   content: '\eb04';
 }
 
-%icon-male{
+%icon-male {
   @extend %icon;
   content: '\eb05';
 }
 
-%icon-map-f{
+%icon-map-f {
   @extend %icon;
   content: '\eb06';
 }
 
-%icon-map-marker-f{
+%icon-map-marker-f {
   @extend %icon;
   content: '\eb07';
 }
 
-%icon-map-marker{
+%icon-map-marker {
   @extend %icon;
   content: '\eb08';
 }
 
-%icon-map{
+%icon-map {
   @extend %icon;
   content: '\eb09';
 }
 
-%icon-mask-f{
+%icon-mask-f {
   @extend %icon;
   content: '\eb0a';
 }
 
-%icon-mask{
+%icon-mask {
   @extend %icon;
   content: '\eb0b';
 }
 
-%icon-medal-f{
+%icon-medal-f {
   @extend %icon;
   content: '\eb0c';
 }
 
-%icon-medal{
+%icon-medal {
   @extend %icon;
   content: '\eb0d';
 }
 
-%icon-medical{
+%icon-medical {
   @extend %icon;
   content: '\eb0e';
 }
 
-%icon-medium-circle{
+%icon-medium-circle {
   @extend %icon;
   content: '\eb0f';
 }
 
-%icon-medium-square{
+%icon-medium-square {
   @extend %icon;
   content: '\eb10';
 }
 
-%icon-medium{
+%icon-medium {
   @extend %icon;
   content: '\eb11';
 }
 
-%icon-menu{
+%icon-menu {
   @extend %icon;
   content: '\eb12';
 }
 
-%icon-merge-f{
+%icon-merge-f {
   @extend %icon;
   content: '\eb13';
 }
 
-%icon-merge{
+%icon-merge {
   @extend %icon;
   content: '\eb14';
 }
 
-%icon-message-alt-f{
+%icon-message-alt-f {
   @extend %icon;
   content: '\eb15';
 }
 
-%icon-message-alt-writing-f{
+%icon-message-alt-writing-f {
   @extend %icon;
   content: '\eb16';
 }
 
-%icon-message-alt-writing{
+%icon-message-alt-writing {
   @extend %icon;
   content: '\eb17';
 }
 
-%icon-message-alt{
+%icon-message-alt {
   @extend %icon;
   content: '\eb18';
 }
 
-%icon-message-f{
+%icon-message-f {
   @extend %icon;
   content: '\eb19';
 }
 
-%icon-message-writing-f{
+%icon-message-writing-f {
   @extend %icon;
   content: '\eb1a';
 }
 
-%icon-message-writing{
+%icon-message-writing {
   @extend %icon;
   content: '\eb1b';
 }
 
-%icon-message{
+%icon-message {
   @extend %icon;
   content: '\eb1c';
 }
 
-%icon-messages-alt-f{
+%icon-messages-alt-f {
   @extend %icon;
   content: '\eb1d';
 }
 
-%icon-messages-alt{
+%icon-messages-alt {
   @extend %icon;
   content: '\eb1e';
 }
 
-%icon-messages-f{
+%icon-messages-f {
   @extend %icon;
   content: '\eb1f';
 }
 
-%icon-messages{
+%icon-messages {
   @extend %icon;
   content: '\eb20';
 }
 
-%icon-messenger{
+%icon-messenger {
   @extend %icon;
   content: '\eb21';
 }
 
-%icon-mic-alt{
+%icon-mic-alt {
   @extend %icon;
   content: '\eb22';
 }
 
-%icon-mic-circle-f{
+%icon-mic-circle-f {
   @extend %icon;
   content: '\eb23';
 }
 
-%icon-mic-circle{
+%icon-mic-circle {
   @extend %icon;
   content: '\eb24';
 }
 
-%icon-mic-f{
+%icon-mic-f {
   @extend %icon;
   content: '\eb25';
 }
 
-%icon-mic-square-f{
+%icon-mic-square-f {
   @extend %icon;
   content: '\eb26';
 }
 
-%icon-mic-square{
+%icon-mic-square {
   @extend %icon;
   content: '\eb27';
 }
 
-%icon-mic{
+%icon-mic {
   @extend %icon;
   content: '\eb28';
 }
 
-%icon-microchip-f{
+%icon-microchip-f {
   @extend %icon;
   content: '\eb29';
 }
 
-%icon-microchip{
+%icon-microchip {
   @extend %icon;
   content: '\eb2a';
 }
 
-%icon-minus-circle-f{
+%icon-minus-circle-f {
   @extend %icon;
   content: '\eb2b';
 }
 
-%icon-minus-circle{
+%icon-minus-circle {
   @extend %icon;
   content: '\eb2c';
 }
 
-%icon-minus-rectangle-f{
+%icon-minus-rectangle-f {
   @extend %icon;
   content: '\eb2d';
 }
 
-%icon-minus-rectangle{
+%icon-minus-rectangle {
   @extend %icon;
   content: '\eb2e';
 }
 
-%icon-minus{
+%icon-minus {
   @extend %icon;
   content: '\eb2f';
 }
 
-%icon-moon-f{
+%icon-moon-f {
   @extend %icon;
   content: '\eb30';
 }
 
-%icon-moon{
+%icon-moon {
   @extend %icon;
   content: '\eb31';
 }
 
-%icon-more-horizontal-f{
+%icon-more-horizontal-f {
   @extend %icon;
   content: '\eb32';
 }
 
-%icon-more-horizontal{
+%icon-more-horizontal {
   @extend %icon;
   content: '\eb33';
 }
 
-%icon-more-vertical-f{
+%icon-more-vertical-f {
   @extend %icon;
   content: '\eb34';
 }
 
-%icon-more-vertical{
+%icon-more-vertical {
   @extend %icon;
   content: '\eb35';
 }
 
-%icon-mountain-f{
+%icon-mountain-f {
   @extend %icon;
   content: '\eb36';
 }
 
-%icon-mountain{
+%icon-mountain {
   @extend %icon;
   content: '\eb37';
 }
 
-%icon-move-alt{
+%icon-move-alt {
   @extend %icon;
   content: '\eb38';
 }
 
-%icon-move{
+%icon-move {
   @extend %icon;
   content: '\eb39';
 }
 
-%icon-movie{
+%icon-movie {
   @extend %icon;
   content: '\eb3a';
 }
 
-%icon-mug-f{
+%icon-mug-f {
   @extend %icon;
   content: '\eb3b';
 }
 
-%icon-mug{
+%icon-mug {
   @extend %icon;
   content: '\eb3c';
 }
 
-%icon-music-f{
+%icon-music-f {
   @extend %icon;
   content: '\eb3d';
 }
 
-%icon-music{
+%icon-music {
   @extend %icon;
   content: '\eb3e';
 }
 
-%icon-myspace-circle{
+%icon-myspace-circle {
   @extend %icon;
   content: '\eb3f';
 }
 
-%icon-myspace-square{
+%icon-myspace-square {
   @extend %icon;
   content: '\eb40';
 }
 
-%icon-myspace{
+%icon-myspace {
   @extend %icon;
   content: '\eb41';
 }
 
-%icon-napster-circle{
+%icon-napster-circle {
   @extend %icon;
   content: '\eb42';
 }
 
-%icon-napster-square{
+%icon-napster-square {
   @extend %icon;
   content: '\eb43';
 }
 
-%icon-napster{
+%icon-napster {
   @extend %icon;
   content: '\eb44';
 }
 
-%icon-newsletter-f{
+%icon-newsletter-f {
   @extend %icon;
   content: '\eb45';
 }
 
-%icon-newsletter{
+%icon-newsletter {
   @extend %icon;
   content: '\eb46';
 }
 
-%icon-newspaper-f{
+%icon-newspaper-f {
   @extend %icon;
   content: '\eb47';
 }
 
-%icon-newspaper{
+%icon-newspaper {
   @extend %icon;
   content: '\eb48';
 }
 
-%icon-npm{
+%icon-npm {
   @extend %icon;
   content: '\eb49';
 }
 
-%icon-odnoklassniki-circle{
+%icon-odnoklassniki-circle {
   @extend %icon;
   content: '\eb4a';
 }
 
-%icon-odnoklassniki-square{
+%icon-odnoklassniki-square {
   @extend %icon;
   content: '\eb4b';
 }
 
-%icon-odnoklassniki{
+%icon-odnoklassniki {
   @extend %icon;
   content: '\eb4c';
 }
 
-%icon-opera-circle{
+%icon-opera-circle {
   @extend %icon;
   content: '\eb4d';
 }
 
-%icon-opera-square{
+%icon-opera-square {
   @extend %icon;
   content: '\eb4e';
 }
 
-%icon-opera{
+%icon-opera {
   @extend %icon;
   content: '\eb4f';
 }
 
-%icon-ordered-list{
+%icon-ordered-list {
   @extend %icon;
   content: '\eb50';
 }
 
-%icon-padlock-alt-f{
+%icon-padlock-alt-f {
   @extend %icon;
   content: '\eb51';
 }
 
-%icon-padlock-alt-open-f{
+%icon-padlock-alt-open-f {
   @extend %icon;
   content: '\eb52';
 }
 
-%icon-padlock-alt-open{
+%icon-padlock-alt-open {
   @extend %icon;
   content: '\eb53';
 }
 
-%icon-padlock-alt{
+%icon-padlock-alt {
   @extend %icon;
   content: '\eb54';
 }
 
-%icon-padlock-f{
+%icon-padlock-f {
   @extend %icon;
   content: '\eb55';
 }
 
-%icon-padlock-open-f{
+%icon-padlock-open-f {
   @extend %icon;
   content: '\eb56';
 }
 
-%icon-padlock-open{
+%icon-padlock-open {
   @extend %icon;
   content: '\eb57';
 }
 
-%icon-padlock{
+%icon-padlock {
   @extend %icon;
   content: '\eb58';
 }
 
-%icon-paper-plane-f{
+%icon-paper-plane-f {
   @extend %icon;
   content: '\eb59';
 }
 
-%icon-paper-plane{
+%icon-paper-plane {
   @extend %icon;
   content: '\eb5a';
 }
 
-%icon-patreon-circle{
+%icon-patreon-circle {
   @extend %icon;
   content: '\eb5b';
 }
 
-%icon-patreon-square{
+%icon-patreon-square {
   @extend %icon;
   content: '\eb5c';
 }
 
-%icon-patreon{
+%icon-patreon {
   @extend %icon;
   content: '\eb5d';
 }
 
-%icon-pause{
+%icon-pause {
   @extend %icon;
   content: '\eb5e';
 }
 
-%icon-paypal-circle{
+%icon-paypal-circle {
   @extend %icon;
   content: '\eb5f';
 }
 
-%icon-paypal-square{
+%icon-paypal-square {
   @extend %icon;
   content: '\eb60';
 }
 
-%icon-paypal{
+%icon-paypal {
   @extend %icon;
   content: '\eb61';
 }
 
-%icon-pen-f{
+%icon-pen-f {
   @extend %icon;
   content: '\eb62';
 }
 
-%icon-pen{
+%icon-pen {
   @extend %icon;
   content: '\eb63';
 }
 
-%icon-pencil-f{
+%icon-pencil-f {
   @extend %icon;
   content: '\eb64';
 }
 
-%icon-pencil{
+%icon-pencil {
   @extend %icon;
   content: '\eb65';
 }
 
-%icon-periscope-circle{
+%icon-periscope-circle {
   @extend %icon;
   content: '\eb66';
 }
 
-%icon-periscope-square{
+%icon-periscope-square {
   @extend %icon;
   content: '\eb67';
 }
 
-%icon-periscope{
+%icon-periscope {
   @extend %icon;
   content: '\eb68';
 }
 
-%icon-phone-f{
+%icon-phone-f {
   @extend %icon;
   content: '\eb69';
 }
 
-%icon-phone{
+%icon-phone {
   @extend %icon;
   content: '\eb6a';
 }
 
-%icon-picture-f{
+%icon-picture-f {
   @extend %icon;
   content: '\eb6b';
 }
 
-%icon-picture{
+%icon-picture {
   @extend %icon;
   content: '\eb6c';
 }
 
-%icon-pictures-f{
+%icon-pictures-f {
   @extend %icon;
   content: '\eb6d';
 }
 
-%icon-pictures{
+%icon-pictures {
   @extend %icon;
   content: '\eb6e';
 }
 
-%icon-pie-chart-alt{
+%icon-pie-chart-alt {
   @extend %icon;
   content: '\eb6f';
 }
 
-%icon-pie-chart-f{
+%icon-pie-chart-f {
   @extend %icon;
   content: '\eb70';
 }
 
-%icon-pie-chart{
+%icon-pie-chart {
   @extend %icon;
   content: '\eb71';
 }
 
-%icon-pin-alt-f{
+%icon-pin-alt-f {
   @extend %icon;
   content: '\eb72';
 }
 
-%icon-pin-alt{
+%icon-pin-alt {
   @extend %icon;
   content: '\eb73';
 }
 
-%icon-pin-f{
+%icon-pin-f {
   @extend %icon;
   content: '\eb74';
 }
 
-%icon-pin{
+%icon-pin {
   @extend %icon;
   content: '\eb75';
 }
 
-%icon-pinterest-circle{
+%icon-pinterest-circle {
   @extend %icon;
   content: '\eb76';
 }
 
-%icon-pinterest-square{
+%icon-pinterest-square {
   @extend %icon;
   content: '\eb77';
 }
 
-%icon-pinterest{
+%icon-pinterest {
   @extend %icon;
   content: '\eb78';
 }
 
-%icon-pizza-slice{
+%icon-pizza-slice {
   @extend %icon;
   content: '\eb79';
 }
 
-%icon-plane-f{
+%icon-plane-f {
   @extend %icon;
   content: '\eb7a';
 }
 
-%icon-plane{
+%icon-plane {
   @extend %icon;
   content: '\eb7b';
 }
 
-%icon-play-circle-f{
+%icon-play-circle-f {
   @extend %icon;
   content: '\eb7c';
 }
 
-%icon-play-circle{
+%icon-play-circle {
   @extend %icon;
   content: '\eb7d';
 }
 
-%icon-play-square-f{
+%icon-play-square-f {
   @extend %icon;
   content: '\eb7e';
 }
 
-%icon-play-square{
+%icon-play-square {
   @extend %icon;
   content: '\eb7f';
 }
 
-%icon-play{
+%icon-play {
   @extend %icon;
   content: '\eb80';
 }
 
-%icon-plug-f{
+%icon-plug-f {
   @extend %icon;
   content: '\eb81';
 }
 
-%icon-plug{
+%icon-plug {
   @extend %icon;
   content: '\eb82';
 }
 
-%icon-plus-circle-f{
+%icon-plus-circle-f {
   @extend %icon;
   content: '\eb83';
 }
 
-%icon-plus-circle{
+%icon-plus-circle {
   @extend %icon;
   content: '\eb84';
 }
 
-%icon-plus-rectangle-f{
+%icon-plus-rectangle-f {
   @extend %icon;
   content: '\eb85';
 }
 
-%icon-plus-rectangle{
+%icon-plus-rectangle {
   @extend %icon;
   content: '\eb86';
 }
 
-%icon-plus{
+%icon-plus {
   @extend %icon;
   content: '\eb87';
 }
 
-%icon-pocket-watch-f{
+%icon-pocket-watch-f {
   @extend %icon;
   content: '\eb88';
 }
 
-%icon-pocket-watch{
+%icon-pocket-watch {
   @extend %icon;
   content: '\eb89';
 }
 
-%icon-podcast{
+%icon-podcast {
   @extend %icon;
   content: '\eb8a';
 }
 
-%icon-power{
+%icon-power {
   @extend %icon;
   content: '\eb8b';
 }
 
-%icon-printer-f{
+%icon-printer-f {
   @extend %icon;
   content: '\eb8c';
 }
 
-%icon-printer{
+%icon-printer {
   @extend %icon;
   content: '\eb8d';
 }
 
-%icon-qr-code{
+%icon-qr-code {
   @extend %icon;
   content: '\eb8e';
 }
 
-%icon-quora-circle{
+%icon-quora-circle {
   @extend %icon;
   content: '\eb8f';
 }
 
-%icon-quora-square{
+%icon-quora-square {
   @extend %icon;
   content: '\eb90';
 }
 
-%icon-quora{
+%icon-quora {
   @extend %icon;
   content: '\eb91';
 }
 
-%icon-rainbow{
+%icon-rainbow {
   @extend %icon;
   content: '\eb92';
 }
 
-%icon-rec{
+%icon-rec {
   @extend %icon;
   content: '\eb93';
 }
 
-%icon-rectangle-f{
+%icon-rectangle-f {
   @extend %icon;
   content: '\eb94';
 }
 
-%icon-rectangle{
+%icon-rectangle {
   @extend %icon;
   content: '\eb95';
 }
 
-%icon-reddit{
+%icon-reddit {
   @extend %icon;
   content: '\eb96';
 }
 
-%icon-redo{
+%icon-redo {
   @extend %icon;
   content: '\eb97';
 }
 
-%icon-refresh-reverse{
+%icon-refresh-reverse {
   @extend %icon;
   content: '\eb98';
 }
 
-%icon-refresh{
+%icon-refresh {
   @extend %icon;
   content: '\eb99';
 }
 
-%icon-repeat{
+%icon-repeat {
   @extend %icon;
   content: '\eb9a';
 }
 
-%icon-rocket-f{
+%icon-rocket-f {
   @extend %icon;
   content: '\eb9b';
 }
 
-%icon-rocket{
+%icon-rocket {
   @extend %icon;
   content: '\eb9c';
 }
 
-%icon-rss-feed{
+%icon-rss-feed {
   @extend %icon;
   content: '\eb9d';
 }
 
-%icon-rubber{
+%icon-rubber {
   @extend %icon;
   content: '\eb9e';
 }
 
-%icon-ruler-f{
+%icon-ruler-f {
   @extend %icon;
   content: '\eb9f';
 }
 
-%icon-ruler{
+%icon-ruler {
   @extend %icon;
   content: '\eba0';
 }
 
-%icon-save-f{
+%icon-save-f {
   @extend %icon;
   content: '\eba1';
 }
 
-%icon-save{
+%icon-save {
   @extend %icon;
   content: '\eba2';
 }
 
-%icon-scissors{
+%icon-scissors {
   @extend %icon;
   content: '\eba3';
 }
 
-%icon-screen-f{
+%icon-screen-f {
   @extend %icon;
   content: '\eba4';
 }
 
-%icon-screen{
+%icon-screen {
   @extend %icon;
   content: '\eba5';
 }
 
-%icon-screwdriver-f{
+%icon-screwdriver-f {
   @extend %icon;
   content: '\eba6';
 }
 
-%icon-screwdriver{
+%icon-screwdriver {
   @extend %icon;
   content: '\eba7';
 }
 
-%icon-search-folder{
+%icon-search-folder {
   @extend %icon;
   content: '\eba8';
 }
 
-%icon-search-minus{
+%icon-search-minus {
   @extend %icon;
   content: '\eba9';
 }
 
-%icon-search-plus{
+%icon-search-plus {
   @extend %icon;
   content: '\ebaa';
 }
 
-%icon-search{
+%icon-search {
   @extend %icon;
   content: '\ebab';
 }
 
-%icon-set-backward-circle-f{
+%icon-set-backward-circle-f {
   @extend %icon;
   content: '\ebac';
 }
 
-%icon-set-backward-circle{
+%icon-set-backward-circle {
   @extend %icon;
   content: '\ebad';
 }
 
-%icon-set-backward-square-f{
+%icon-set-backward-square-f {
   @extend %icon;
   content: '\ebae';
 }
 
-%icon-set-backward-square{
+%icon-set-backward-square {
   @extend %icon;
   content: '\ebaf';
 }
 
-%icon-set-backward{
+%icon-set-backward {
   @extend %icon;
   content: '\ebb0';
 }
 
-%icon-set-forward-circle-f{
+%icon-set-forward-circle-f {
   @extend %icon;
   content: '\ebb1';
 }
 
-%icon-set-forward-circle{
+%icon-set-forward-circle {
   @extend %icon;
   content: '\ebb2';
 }
 
-%icon-set-forward-square-f{
+%icon-set-forward-square-f {
   @extend %icon;
   content: '\ebb3';
 }
 
-%icon-set-forward-square{
+%icon-set-forward-square {
   @extend %icon;
   content: '\ebb4';
 }
 
-%icon-set-forward{
+%icon-set-forward {
   @extend %icon;
   content: '\ebb5';
 }
 
-%icon-set-square-f{
+%icon-set-square-f {
   @extend %icon;
   content: '\ebb6';
 }
 
-%icon-set-square{
+%icon-set-square {
   @extend %icon;
   content: '\ebb7';
 }
 
-%icon-settings-alt{
+%icon-settings-alt {
   @extend %icon;
   content: '\ebb8';
 }
 
-%icon-share-alt-f{
+%icon-share-alt-f {
   @extend %icon;
   content: '\ebb9';
 }
 
-%icon-share-alt{
+%icon-share-alt {
   @extend %icon;
   content: '\ebba';
 }
 
-%icon-share{
+%icon-share {
   @extend %icon;
   content: '\ebbb';
 }
 
-%icon-shield-check-f{
+%icon-shield-check-f {
   @extend %icon;
   content: '\ebbc';
 }
 
-%icon-shield-check{
+%icon-shield-check {
   @extend %icon;
   content: '\ebbd';
 }
 
-%icon-shield-close-f{
+%icon-shield-close-f {
   @extend %icon;
   content: '\ebbe';
 }
 
-%icon-shield-close{
+%icon-shield-close {
   @extend %icon;
   content: '\ebbf';
 }
 
-%icon-shield-f{
+%icon-shield-f {
   @extend %icon;
   content: '\ebc0';
 }
 
-%icon-shield-half{
+%icon-shield-half {
   @extend %icon;
   content: '\ebc1';
 }
 
-%icon-shield-minus-f{
+%icon-shield-minus-f {
   @extend %icon;
   content: '\ebc2';
 }
 
-%icon-shield-minus{
+%icon-shield-minus {
   @extend %icon;
   content: '\ebc3';
 }
 
-%icon-shield-plus-f{
+%icon-shield-plus-f {
   @extend %icon;
   content: '\ebc4';
 }
 
-%icon-shield-plus{
+%icon-shield-plus {
   @extend %icon;
   content: '\ebc5';
 }
 
-%icon-shield{
+%icon-shield {
   @extend %icon;
   content: '\ebc6';
 }
 
-%icon-shopify-circle{
+%icon-shopify-circle {
   @extend %icon;
   content: '\ebc7';
 }
 
-%icon-shopify-square{
+%icon-shopify-square {
   @extend %icon;
   content: '\ebc8';
 }
 
-%icon-shopify{
+%icon-shopify {
   @extend %icon;
   content: '\ebc9';
 }
 
-%icon-shopping-bag-alt-f{
+%icon-shopping-bag-alt-f {
   @extend %icon;
   content: '\ebca';
 }
 
-%icon-shopping-bag-alt{
+%icon-shopping-bag-alt {
   @extend %icon;
   content: '\ebcb';
 }
 
-%icon-shopping-bag-f{
+%icon-shopping-bag-f {
   @extend %icon;
   content: '\ebcc';
 }
 
-%icon-shopping-bag{
+%icon-shopping-bag {
   @extend %icon;
   content: '\ebcd';
 }
 
-%icon-shopping-cart{
+%icon-shopping-cart {
   @extend %icon;
   content: '\ebce';
 }
 
-%icon-shuffle{
+%icon-shuffle {
   @extend %icon;
   content: '\ebcf';
 }
 
-%icon-signal{
+%icon-signal {
   @extend %icon;
   content: '\ebd0';
 }
 
-%icon-sitemap-f{
+%icon-sitemap-f {
   @extend %icon;
   content: '\ebd1';
 }
 
-%icon-sitemap{
+%icon-sitemap {
   @extend %icon;
   content: '\ebd2';
 }
 
-%icon-skull-f{
+%icon-skull-f {
   @extend %icon;
   content: '\ebd3';
 }
 
-%icon-skull{
+%icon-skull {
   @extend %icon;
   content: '\ebd4';
 }
 
-%icon-skype-circle{
+%icon-skype-circle {
   @extend %icon;
   content: '\ebd5';
 }
 
-%icon-skype-square{
+%icon-skype-square {
   @extend %icon;
   content: '\ebd6';
 }
 
-%icon-skype{
+%icon-skype {
   @extend %icon;
   content: '\ebd7';
 }
 
-%icon-slack-circle{
+%icon-slack-circle {
   @extend %icon;
   content: '\ebd8';
 }
 
-%icon-slack-square{
+%icon-slack-square {
   @extend %icon;
   content: '\ebd9';
 }
 
-%icon-slack{
+%icon-slack {
   @extend %icon;
   content: '\ebda';
 }
 
-%icon-smiley-f{
+%icon-smiley-f {
   @extend %icon;
   content: '\ebdb';
 }
 
-%icon-smiley{
+%icon-smiley {
   @extend %icon;
   content: '\ebdc';
 }
 
-%icon-snapchat-circle{
+%icon-snapchat-circle {
   @extend %icon;
   content: '\ebdd';
 }
 
-%icon-snapchat-square{
+%icon-snapchat-square {
   @extend %icon;
   content: '\ebde';
 }
 
-%icon-snapchat{
+%icon-snapchat {
   @extend %icon;
   content: '\ebdf';
 }
 
-%icon-snowboard-f{
+%icon-snowboard-f {
   @extend %icon;
   content: '\ebe0';
 }
 
-%icon-snowboard{
+%icon-snowboard {
   @extend %icon;
   content: '\ebe1';
 }
 
-%icon-snowflake{
+%icon-snowflake {
   @extend %icon;
   content: '\ebe2';
 }
 
-%icon-soundcloud{
+%icon-soundcloud {
   @extend %icon;
   content: '\ebe3';
 }
 
-%icon-speaker-f{
+%icon-speaker-f {
   @extend %icon;
   content: '\ebe4';
 }
 
-%icon-speaker{
+%icon-speaker {
   @extend %icon;
   content: '\ebe5';
 }
 
-%icon-spotify{
+%icon-spotify {
   @extend %icon;
   content: '\ebe6';
 }
 
-%icon-square-f{
+%icon-square-f {
   @extend %icon;
   content: '\ebe7';
 }
 
-%icon-square{
+%icon-square {
   @extend %icon;
   content: '\ebe8';
 }
 
-%icon-squarespace-circle{
+%icon-squarespace-circle {
   @extend %icon;
   content: '\ebe9';
 }
 
-%icon-squarespace-square{
+%icon-squarespace-square {
   @extend %icon;
   content: '\ebea';
 }
 
-%icon-squarespace{
+%icon-squarespace {
   @extend %icon;
   content: '\ebeb';
 }
 
-%icon-stackoverflow-circle{
+%icon-stackoverflow-circle {
   @extend %icon;
   content: '\ebec';
 }
 
-%icon-stackoverflow-square{
+%icon-stackoverflow-square {
   @extend %icon;
   content: '\ebed';
 }
 
-%icon-stackoverflow{
+%icon-stackoverflow {
   @extend %icon;
   content: '\ebee';
 }
 
-%icon-stamp-f{
+%icon-stamp-f {
   @extend %icon;
   content: '\ebef';
 }
 
-%icon-stamp{
+%icon-stamp {
   @extend %icon;
   content: '\ebf0';
 }
 
-%icon-star-f{
+%icon-star-f {
   @extend %icon;
   content: '\ebf1';
 }
 
-%icon-star-full{
+%icon-star-full {
   @extend %icon;
   content: '\ebf2';
 }
 
-%icon-star-half{
+%icon-star-half {
   @extend %icon;
   content: '\ebf3';
 }
 
-%icon-star{
+%icon-star {
   @extend %icon;
   content: '\ebf4';
 }
 
-%icon-station{
+%icon-station {
   @extend %icon;
   content: '\ebf5';
 }
 
-%icon-stop-sign{
+%icon-stop-sign {
   @extend %icon;
   content: '\ebf6';
 }
 
-%icon-stop{
+%icon-stop {
   @extend %icon;
   content: '\ebf7';
 }
 
-%icon-store{
+%icon-store {
   @extend %icon;
   content: '\ebf8';
 }
 
-%icon-strikethrough{
+%icon-strikethrough {
   @extend %icon;
   content: '\ebf9';
 }
 
-%icon-stumbleupon-circle{
+%icon-stumbleupon-circle {
   @extend %icon;
   content: '\ebfa';
 }
 
-%icon-stumbleupon-square{
+%icon-stumbleupon-square {
   @extend %icon;
   content: '\ebfb';
 }
 
-%icon-stumbleupon{
+%icon-stumbleupon {
   @extend %icon;
   content: '\ebfc';
 }
 
-%icon-sun-f{
+%icon-sun-f {
   @extend %icon;
   content: '\ebfd';
 }
 
-%icon-sun{
+%icon-sun {
   @extend %icon;
   content: '\ebfe';
 }
 
-%icon-switch-left-f{
+%icon-switch-left-f {
   @extend %icon;
   content: '\ebff';
 }
 
-%icon-switch-left{
+%icon-switch-left {
   @extend %icon;
   content: '\ec00';
 }
 
-%icon-switch-right-f{
+%icon-switch-right-f {
   @extend %icon;
   content: '\ec01';
 }
 
-%icon-switch-right{
+%icon-switch-right {
   @extend %icon;
   content: '\ec02';
 }
 
-%icon-sword-f{
+%icon-sword-f {
   @extend %icon;
   content: '\ec03';
 }
 
-%icon-sword{
+%icon-sword {
   @extend %icon;
   content: '\ec04';
 }
 
-%icon-tablet-f{
+%icon-tablet-f {
   @extend %icon;
   content: '\ec05';
 }
 
-%icon-tablet{
+%icon-tablet {
   @extend %icon;
   content: '\ec06';
 }
 
-%icon-tag-f{
+%icon-tag-f {
   @extend %icon;
   content: '\ec07';
 }
 
-%icon-tag{
+%icon-tag {
   @extend %icon;
   content: '\ec08';
 }
 
-%icon-tags-f{
+%icon-tags-f {
   @extend %icon;
   content: '\ec09';
 }
 
-%icon-tags{
+%icon-tags {
   @extend %icon;
   content: '\ec0a';
 }
 
-%icon-target{
+%icon-target {
   @extend %icon;
   content: '\ec0b';
 }
 
-%icon-task-list-f{
+%icon-task-list-f {
   @extend %icon;
   content: '\ec0c';
 }
 
-%icon-task-list{
+%icon-task-list {
   @extend %icon;
   content: '\ec0d';
 }
 
-%icon-temperature{
+%icon-temperature {
   @extend %icon;
   content: '\ec0e';
 }
 
-%icon-terminal{
+%icon-terminal {
   @extend %icon;
   content: '\ec0f';
 }
 
-%icon-thunder-f{
+%icon-thunder-f {
   @extend %icon;
   content: '\ec10';
 }
 
-%icon-thunder{
+%icon-thunder {
   @extend %icon;
   content: '\ec11';
 }
 
-%icon-ticket-f{
+%icon-ticket-f {
   @extend %icon;
   content: '\ec12';
 }
 
-%icon-ticket{
+%icon-ticket {
   @extend %icon;
   content: '\ec13';
 }
 
-%icon-tools-f{
+%icon-tools-f {
   @extend %icon;
   content: '\ec14';
 }
 
-%icon-tools{
+%icon-tools {
   @extend %icon;
   content: '\ec15';
 }
 
-%icon-torch-f{
+%icon-torch-f {
   @extend %icon;
   content: '\ec16';
 }
 
-%icon-torch{
+%icon-torch {
   @extend %icon;
   content: '\ec17';
 }
 
-%icon-totem{
+%icon-totem {
   @extend %icon;
   content: '\ec18';
 }
 
-%icon-train-f{
+%icon-train-f {
   @extend %icon;
   content: '\ec19';
 }
 
-%icon-train{
+%icon-train {
   @extend %icon;
   content: '\ec1a';
 }
 
-%icon-transgender{
+%icon-transgender {
   @extend %icon;
   content: '\ec1b';
 }
 
-%icon-trash-alt-f{
+%icon-trash-alt-f {
   @extend %icon;
   content: '\ec1c';
 }
 
-%icon-trash-alt{
+%icon-trash-alt {
   @extend %icon;
   content: '\ec1d';
 }
 
-%icon-trash-f{
+%icon-trash-f {
   @extend %icon;
   content: '\ec1e';
 }
 
-%icon-trash{
+%icon-trash {
   @extend %icon;
   content: '\ec1f';
 }
 
-%icon-tree-alt-f{
+%icon-tree-alt-f {
   @extend %icon;
   content: '\ec20';
 }
 
-%icon-tree-alt{
+%icon-tree-alt {
   @extend %icon;
   content: '\ec21';
 }
 
-%icon-tree-f{
+%icon-tree-f {
   @extend %icon;
   content: '\ec22';
 }
 
-%icon-tree{
+%icon-tree {
   @extend %icon;
   content: '\ec23';
 }
 
-%icon-trello{
+%icon-trello {
   @extend %icon;
   content: '\ec24';
 }
 
-%icon-triangle-danger-f{
+%icon-triangle-danger-f {
   @extend %icon;
   content: '\ec25';
 }
 
-%icon-triangle-danger{
+%icon-triangle-danger {
   @extend %icon;
   content: '\ec26';
 }
 
-%icon-triangle-f{
+%icon-triangle-f {
   @extend %icon;
   content: '\ec27';
 }
 
-%icon-triangle{
+%icon-triangle {
   @extend %icon;
   content: '\ec28';
 }
 
-%icon-trophy-f{
+%icon-trophy-f {
   @extend %icon;
   content: '\ec29';
 }
 
-%icon-trophy{
+%icon-trophy {
   @extend %icon;
   content: '\ec2a';
 }
 
-%icon-tube{
+%icon-tube {
   @extend %icon;
   content: '\ec2b';
 }
 
-%icon-tumblr-circle{
+%icon-tumblr-circle {
   @extend %icon;
   content: '\ec2c';
 }
 
-%icon-tumblr-square{
+%icon-tumblr-square {
   @extend %icon;
   content: '\ec2d';
 }
 
-%icon-tumblr{
+%icon-tumblr {
   @extend %icon;
   content: '\ec2e';
 }
 
-%icon-twitch{
+%icon-twitch {
   @extend %icon;
   content: '\ec2f';
 }
 
-%icon-twitter-circle{
+%icon-twitter-circle {
   @extend %icon;
   content: '\ec30';
 }
 
-%icon-twitter-square{
+%icon-twitter-square {
   @extend %icon;
   content: '\ec31';
 }
 
-%icon-twitter{
+%icon-twitter {
   @extend %icon;
   content: '\ec32';
 }
 
-%icon-umbrella-closed-f{
+%icon-umbrella-closed-f {
   @extend %icon;
   content: '\ec33';
 }
 
-%icon-umbrella-closed{
+%icon-umbrella-closed {
   @extend %icon;
   content: '\ec34';
 }
 
-%icon-umbrella-f{
+%icon-umbrella-f {
   @extend %icon;
   content: '\ec35';
 }
 
-%icon-umbrella{
+%icon-umbrella {
   @extend %icon;
   content: '\ec36';
 }
 
-%icon-underline{
+%icon-underline {
   @extend %icon;
   content: '\ec37';
 }
 
-%icon-undo{
+%icon-undo {
   @extend %icon;
   content: '\ec38';
 }
 
-%icon-unindent{
+%icon-unindent {
   @extend %icon;
   content: '\ec39';
 }
 
-%icon-universe{
+%icon-universe {
   @extend %icon;
   content: '\ec3a';
 }
 
-%icon-unordered-list{
+%icon-unordered-list {
   @extend %icon;
   content: '\ec3b';
 }
 
-%icon-unsplash-circle{
+%icon-unsplash-circle {
   @extend %icon;
   content: '\ec3c';
 }
 
-%icon-unsplash-square{
+%icon-unsplash-square {
   @extend %icon;
   content: '\ec3d';
 }
 
-%icon-unsplash{
+%icon-unsplash {
   @extend %icon;
   content: '\ec3e';
 }
 
-%icon-upload{
+%icon-upload {
   @extend %icon;
   content: '\ec3f';
 }
 
-%icon-user-circle{
+%icon-user-circle {
   @extend %icon;
   content: '\ec40';
 }
 
-%icon-user-minus{
+%icon-user-minus {
   @extend %icon;
   content: '\ec41';
 }
 
-%icon-user-plus{
+%icon-user-plus {
   @extend %icon;
   content: '\ec42';
 }
 
-%icon-user-remove{
+%icon-user-remove {
   @extend %icon;
   content: '\ec43';
 }
 
-%icon-user-square{
+%icon-user-square {
   @extend %icon;
   content: '\ec44';
 }
 
-%icon-user{
+%icon-user {
   @extend %icon;
   content: '\ec45';
 }
 
-%icon-users{
+%icon-users {
   @extend %icon;
   content: '\ec46';
 }
 
-%icon-viadeo{
+%icon-viadeo {
   @extend %icon;
   content: '\ec47';
 }
 
-%icon-viber-circle{
+%icon-viber-circle {
   @extend %icon;
   content: '\ec48';
 }
 
-%icon-viber-square{
+%icon-viber-square {
   @extend %icon;
   content: '\ec49';
 }
 
-%icon-viber{
+%icon-viber {
   @extend %icon;
   content: '\ec4a';
 }
 
-%icon-video-camera-f{
+%icon-video-camera-f {
   @extend %icon;
   content: '\ec4b';
 }
 
-%icon-video-camera-vintage-f{
+%icon-video-camera-vintage-f {
   @extend %icon;
   content: '\ec4c';
 }
 
-%icon-video-camera-vintage{
+%icon-video-camera-vintage {
   @extend %icon;
   content: '\ec4d';
 }
 
-%icon-video-camera{
+%icon-video-camera {
   @extend %icon;
   content: '\ec4e';
 }
 
-%icon-vimeo-circle{
+%icon-vimeo-circle {
   @extend %icon;
   content: '\ec4f';
 }
 
-%icon-vimeo-square{
+%icon-vimeo-square {
   @extend %icon;
   content: '\ec50';
 }
 
-%icon-vimeo{
+%icon-vimeo {
   @extend %icon;
   content: '\ec51';
 }
 
-%icon-vine-circle{
+%icon-vine-circle {
   @extend %icon;
   content: '\ec52';
 }
 
-%icon-vine-square{
+%icon-vine-square {
   @extend %icon;
   content: '\ec53';
 }
 
-%icon-vine{
+%icon-vine {
   @extend %icon;
   content: '\ec54';
 }
 
-%icon-voicemail{
+%icon-voicemail {
   @extend %icon;
   content: '\ec55';
 }
 
-%icon-volume-circle-f{
+%icon-volume-circle-f {
   @extend %icon;
   content: '\ec56';
 }
 
-%icon-volume-circle{
+%icon-volume-circle {
   @extend %icon;
   content: '\ec57';
 }
 
-%icon-volume-down-circle-f{
+%icon-volume-down-circle-f {
   @extend %icon;
   content: '\ec58';
 }
 
-%icon-volume-down-circle{
+%icon-volume-down-circle {
   @extend %icon;
   content: '\ec59';
 }
 
-%icon-volume-down-square-f{
+%icon-volume-down-square-f {
   @extend %icon;
   content: '\ec5a';
 }
 
-%icon-volume-down-square{
+%icon-volume-down-square {
   @extend %icon;
   content: '\ec5b';
 }
 
-%icon-volume-down{
+%icon-volume-down {
   @extend %icon;
   content: '\ec5c';
 }
 
-%icon-volume-mute-circle-f{
+%icon-volume-mute-circle-f {
   @extend %icon;
   content: '\ec5d';
 }
 
-%icon-volume-mute-circle{
+%icon-volume-mute-circle {
   @extend %icon;
   content: '\ec5e';
 }
 
-%icon-volume-mute-square-f{
+%icon-volume-mute-square-f {
   @extend %icon;
   content: '\ec5f';
 }
 
-%icon-volume-mute-square{
+%icon-volume-mute-square {
   @extend %icon;
   content: '\ec60';
 }
 
-%icon-volume-mute{
+%icon-volume-mute {
   @extend %icon;
   content: '\ec61';
 }
 
-%icon-volume-square-f{
+%icon-volume-square-f {
   @extend %icon;
   content: '\ec62';
 }
 
-%icon-volume-square{
+%icon-volume-square {
   @extend %icon;
   content: '\ec63';
 }
 
-%icon-volume-up-circle-f{
+%icon-volume-up-circle-f {
   @extend %icon;
   content: '\ec64';
 }
 
-%icon-volume-up-circle{
+%icon-volume-up-circle {
   @extend %icon;
   content: '\ec65';
 }
 
-%icon-volume-up-square-f{
+%icon-volume-up-square-f {
   @extend %icon;
   content: '\ec66';
 }
 
-%icon-volume-up-square{
+%icon-volume-up-square {
   @extend %icon;
   content: '\ec67';
 }
 
-%icon-volume-up{
+%icon-volume-up {
   @extend %icon;
   content: '\ec68';
 }
 
-%icon-volume{
+%icon-volume {
   @extend %icon;
   content: '\ec69';
 }
 
-%icon-watch-f{
+%icon-watch-f {
   @extend %icon;
   content: '\ec6a';
 }
 
-%icon-watch{
+%icon-watch {
   @extend %icon;
   content: '\ec6b';
 }
 
-%icon-water-drop-f{
+%icon-water-drop-f {
   @extend %icon;
   content: '\ec6c';
 }
 
-%icon-water-drop{
+%icon-water-drop {
   @extend %icon;
   content: '\ec6d';
 }
 
-%icon-whatsapp{
+%icon-whatsapp {
   @extend %icon;
   content: '\ec6e';
 }
 
-%icon-wifi{
+%icon-wifi {
   @extend %icon;
   content: '\ec6f';
 }
 
-%icon-wikipedia{
+%icon-wikipedia {
   @extend %icon;
   content: '\ec70';
 }
 
-%icon-wordpress{
+%icon-wordpress {
   @extend %icon;
   content: '\ec71';
 }
 
-%icon-world{
+%icon-world {
   @extend %icon;
   content: '\ec72';
 }
 
-%icon-wrench-f{
+%icon-wrench-f {
   @extend %icon;
   content: '\ec73';
 }
 
-%icon-wrench{
+%icon-wrench {
   @extend %icon;
   content: '\ec74';
 }
 
-%icon-write-f{
+%icon-write-f {
   @extend %icon;
   content: '\ec75';
 }
 
-%icon-write{
+%icon-write {
   @extend %icon;
   content: '\ec76';
 }
 
-%icon-yahoo-circle{
+%icon-yahoo-circle {
   @extend %icon;
   content: '\ec77';
 }
 
-%icon-yahoo-square{
+%icon-yahoo-square {
   @extend %icon;
   content: '\ec78';
 }
 
-%icon-yahoo{
+%icon-yahoo {
   @extend %icon;
   content: '\ec79';
 }
 
-%icon-yelp-circle{
+%icon-yelp-circle {
   @extend %icon;
   content: '\ec7a';
 }
 
-%icon-yelp-square{
+%icon-yelp-square {
   @extend %icon;
   content: '\ec7b';
 }
 
-%icon-yelp{
+%icon-yelp {
   @extend %icon;
   content: '\ec7c';
 }
 
-%icon-youtube-circle{
+%icon-youtube-circle {
   @extend %icon;
   content: '\ec7d';
 }
 
-%icon-youtube-square{
+%icon-youtube-square {
   @extend %icon;
   content: '\ec7e';
 }
 
-%icon-youtube{
+%icon-youtube {
   @extend %icon;
   content: '\ec7f';
 }

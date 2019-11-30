@@ -1,0 +1,56 @@
+@include block('card') {
+  @include element('headline') {
+    @extend %text-styles__headline--h3;
+    @include margin(0 0 rem(10) 0);
+  }
+  @include element('headline-link') {
+    text: {
+      decoration: none;
+    }
+  }
+  @include element('content') {
+    @extend %text-styles__body--t2;
+    @include margin(0);
+  }
+  @include element('link') {
+    @include margin(rem(10) 0 0 0);
+
+    display: block;
+    text: {
+      align: right;
+      decoration: none;
+    }
+
+    @include before {
+      @extend %icon-link;
+    }
+  }
+
+  @include before {
+    @include position(absolute, rem(15px) rem(-15px) rem(-15px) rem(15px));
+    background: {
+      color: transparent;
+      image: url('#{const('GFX-FOLDER')}/checkerboard.svg');
+      size: rem(4) rem(4);
+    }
+    border: {
+      radius: var(--content--border-radius);
+    }
+    content: '';
+    display: block;
+    z-index: -1;
+  }
+
+  @include padding(rem(15));
+
+  background: {
+    color: var(--color--white);
+  }
+  border: {
+    color: var(--content--border-color);
+    radius: var(--content--border-radius);
+    size: var(--content--border-width);
+    style: solid;
+  }
+  position: relative;
+}

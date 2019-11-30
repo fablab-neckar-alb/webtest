@@ -11,7 +11,9 @@
 html {
   box-sizing: border-box;
 
-  &::after {
+  @include after {
+    display: none;
+
     @include mobile(true) {
       content: 'mobile';
     }
@@ -23,8 +25,6 @@ html {
     @include desktop {
       content: 'desktop';
     }
-
-    display: none;
   }
 }
 

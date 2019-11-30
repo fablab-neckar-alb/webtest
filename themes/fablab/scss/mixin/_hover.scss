@@ -1,32 +1,32 @@
 @mixin focus {
   &:focus {
-    @content
+    @content;
   }
 }
 
 @mixin hover {
   &:hover {
-    @content
+    @content;
   }
 }
 
 @mixin hover--parent {
   &:hover & {
-    @content
+    @content;
   }
 }
 
 @mixin hover-focus {
   &:focus,
   &:hover {
-    @content
+    @content;
   }
 }
 
 @mixin hover-focus--parent {
   &:focus &,
   &:hover & {
-    @content
+    @content;
   }
 }
 
@@ -34,7 +34,7 @@
   &,
   &:focus,
   &:hover {
-    @content
+    @content;
   }
 }
 
@@ -42,7 +42,7 @@
   &:focus,
   &:active,
   &:hover {
-    @content
+    @content;
   }
 }
 
@@ -50,6 +50,6 @@
   &:focus &,
   &:active &,
   &:hover & {
-    @content
+    @content;
   }
 }

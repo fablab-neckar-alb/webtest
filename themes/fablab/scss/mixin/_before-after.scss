@@ -7,8 +7,8 @@
 /// Mathes before and after
 /// @access public
 @mixin before-after {
-  &:before,
-  &:after {
+  &::before,
+  &::after {
     @content;
   }
 }
@@ -16,15 +16,15 @@
 /// Matches before
 /// @access public
 @mixin before {
-  &:before {
-    @content
+  &::before {
+    @content;
   }
 }
 
 /// Matches after
 /// @access public
 @mixin after {
-  &:after {
-    @content
+  &::after {
+    @content;
   }
 }

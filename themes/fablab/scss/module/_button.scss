@@ -1,0 +1,33 @@
+@include block('button') {
+  @include padding(null rem(15) null rem(15));
+  @include size(auto, rem(50));
+
+  @include hover-focus-active {
+    background: {
+      color: var(--button-hover, var(--color--darker));
+    }
+  }
+
+  align-items: center;
+  background: {
+    color: var(--button-color, var(--color--fablab-blue));
+  }
+  border: {
+    radius: var(--border-radius);
+  }
+  color: var(--color--white);
+  display: flex;
+  font: {
+    family: 'Open Sans', sans-serif;
+    weight: 600;
+  }
+  text: {
+    decoration: none;
+  }
+  transition: background-color 0.2s 0.1s ease-in;
+
+  @include modifier('cta') {
+    --button-color: var(--color--fablab-blue);
+    --button-hover: var(--color--darker);
+  }
+}

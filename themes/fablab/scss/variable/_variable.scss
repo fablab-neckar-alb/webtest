@@ -15,7 +15,9 @@
   --color--dark: #{$bunker};
   --color--content-background: #{$onahau};
 
-  --content--border-radius: #{const('CONTENT-BORDER-RADIUS')};
+  --border-radius: #{const('CONTENT-BORDER-RADIUS')};
+
+  --content--border-radius: var(--border-radius);
   --content--border-width: #{const('CONTENT-BORDER-WIDTH')};
   --content--border-color: var(--color--darker);
 }
