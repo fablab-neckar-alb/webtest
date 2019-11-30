@@ -3,6 +3,8 @@ const cssDeclarationSorter = require('css-declaration-sorter')
 const autoprefixer = require('autoprefixer')
 const mqpacker = require('css-mqpacker')
 const cachebuster = require('postcss-cachebuster')
+const stylelint = require('stylelint')
+const postcssReporter = require('postcss-reporter')
 
 const config = {
   plugins: [
@@ -29,7 +31,8 @@ const config = {
           }
         }
       ]
-    })
+    }),
+    postcssReporter({ clearReportedMessages: true })
   ]
 }
 
