@@ -1,0 +1,39 @@
+%_headline {
+  color: var(--color, var(--color--fablab-blue));
+  font: {
+    family: 'Titillium Web', sans-serif;
+    weight: 400;
+  }
+  transition: color 0.2s 0.1s ease-in;
+}
+
+%text-styles__headline--h3 {
+  @extend %_headline;
+  @include mobile {
+    font: {
+      size: rem(24);
+    }
+    line: {
+      height: rem(36);
+    }
+  }
+  @include desktop {
+    font: {
+      size: rem(24);
+    }
+    line: {
+      height: rem(36);
+    }
+  }
+
+  a {
+    @extend %text-styles__headline--h3;
+    @include hover-focus-active {
+      color: var(--hover-color, var(--color--darker));
+    }
+
+    text: {
+      decoration: none;
+    }
+  }
+}

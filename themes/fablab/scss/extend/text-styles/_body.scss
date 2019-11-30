@@ -1,0 +1,21 @@
+%_body {
+  font: {
+    family: 'Open Sans';
+    weight: 400;
+  }
+}
+
+%text-styles__body--t2 {
+  @extend %_body;
+
+  font: {
+    size: rem(14);
+  }
+  line: {
+    height: rem(24);
+  }
+
+  p {
+    @include margin(null null rem(10) null);
+  }
+}
