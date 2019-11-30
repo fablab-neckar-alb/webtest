@@ -7,17 +7,40 @@
   transition: color 0.2s 0.1s ease-in;
 }
 
+%text-styles__headline--h1 {
+  @extend %_headline;
+
+  @include mobile {
+    @include margin(null null rem(15) null);
+    font: {
+      size: rem(16);
+    }
+    line: {
+      height: rem(24);
+    }
+  }
+  @include tablet {
+    @include margin(null null rem(20) null);
+    font: {
+      size: rem(48);
+    }
+    line: {
+      height: rem(73);
+    }
+  }
+}
+
 %text-styles__headline--h3 {
   @extend %_headline;
   @include mobile {
     font: {
-      size: rem(24);
+      size: rem(16);
     }
     line: {
-      height: rem(36);
+      height: rem(24);
     }
   }
-  @include desktop {
+  @include tablet {
     font: {
       size: rem(24);
     }

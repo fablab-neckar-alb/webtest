@@ -1,7 +1,10 @@
 @include block('cards') {
   @include element('card') {
-    @include margin(null null rem(25) null);
+    @include mobile {
+      @include margin(null null rem(15) null);
+    }
     @include tablet {
+      @include margin(null null rem(25) null);
       &:nth-child(2n-1) {
         @include margin(null rem(50) null null);
       }

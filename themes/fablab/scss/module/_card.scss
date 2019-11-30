@@ -13,6 +13,7 @@
     @include margin(0);
   }
   @include element('link') {
+    @extend %more-link;
     @include margin(rem(10) 0 0 0);
 
     display: block;
